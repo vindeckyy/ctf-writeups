@@ -1,6 +1,6 @@
 # forensics usb
 
-_2018-05-27_
+_2018-06-15_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2018-05-27_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
