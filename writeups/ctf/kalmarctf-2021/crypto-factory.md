@@ -1,11 +1,10 @@
 # crypto factory
 
-_2018-05-30_
+_2018-06-15_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
-- nmap scripts updated from master
 
 ## findings
 - nfs export no_root_squash
@@ -14,4 +13,3 @@ _2018-05-30_
 
 ## next
 - map remaining acls in bloodhound
-- sweep ipv6 for live hosts
