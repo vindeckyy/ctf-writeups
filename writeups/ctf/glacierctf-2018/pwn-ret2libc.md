@@ -1,6 +1,6 @@
 # pwn ret2libc
 
-_2018-04-22_
+_2018-06-29_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2018-04-22_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
