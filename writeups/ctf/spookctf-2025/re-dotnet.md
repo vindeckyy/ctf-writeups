@@ -1,6 +1,6 @@
 # re dotnet
 
-_2018-05-16_
+_2018-07-01_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,6 +8,8 @@ _2018-05-16_
 - responder listening on the test vlan
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
