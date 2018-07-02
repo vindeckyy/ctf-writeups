@@ -1,6 +1,6 @@
 # loot
 
-_2018-06-16_
+_2018-07-01_
 
 ## setup
 - responder listening on the test vlan
