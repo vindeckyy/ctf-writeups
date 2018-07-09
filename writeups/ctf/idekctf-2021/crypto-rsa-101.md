@@ -1,0 +1,16 @@
+# crypto rsa 101
+
+_2018-07-09_
+
+## setup
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
+
+## findings
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
+
+## next
+- retest after patch window
