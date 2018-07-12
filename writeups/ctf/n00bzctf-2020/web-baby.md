@@ -1,6 +1,6 @@
 # web baby
 
-_2018-06-24_
+_2018-07-12_
 
 ## setup
 - responder listening on the test vlan
@@ -9,6 +9,8 @@ _2018-06-24_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
