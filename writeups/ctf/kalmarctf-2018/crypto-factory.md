@@ -1,6 +1,6 @@
 # crypto factory
 
-_2018-05-15_
+_2018-07-23_
 
 ## setup
 - responder listening on the test vlan
@@ -8,8 +8,6 @@ _2018-05-15_
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
