@@ -1,15 +1,14 @@
 # loot
 
-_2018-08-02_
+_2018-08-03_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
-- cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
 
 ## next
-- ask IT about legacy OU cleanup
+- sweep ipv6 for live hosts
