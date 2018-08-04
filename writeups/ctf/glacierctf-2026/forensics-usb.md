@@ -1,6 +1,6 @@
 # forensics usb
 
-_2018-07-29_
+_2018-08-04_
 
 ## setup
 - new vpnsplit setup for the lab
