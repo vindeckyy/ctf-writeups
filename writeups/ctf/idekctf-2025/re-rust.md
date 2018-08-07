@@ -1,6 +1,6 @@
 # re rust
 
-_2018-07-28_
+_2018-08-07_
 
 ## setup
 - mitm6 paired with ntlmrelayx
@@ -8,8 +8,6 @@ _2018-07-28_
 - target: internal lab 10.0.20.0/24
 
 ## findings
-- ldap anon bind still works
-- gpp leftovers on legacy OU
 - host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
