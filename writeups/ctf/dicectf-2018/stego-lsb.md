@@ -1,10 +1,11 @@
 # stego lsb
 
-_2018-07-02_
+_2018-08-12_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
 - kerberoastable: svc_backup, svc_sql
@@ -12,3 +13,4 @@ _2018-07-02_
 
 ## next
 - sweep ipv6 for live hosts
+- test coercion from workstation context
