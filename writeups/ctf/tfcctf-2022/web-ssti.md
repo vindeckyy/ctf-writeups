@@ -1,14 +1,14 @@
 # web ssti
 
-_2018-07-20_
+_2018-08-16_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- try esc4 template misconfig
+- sweep ipv6 for live hosts
