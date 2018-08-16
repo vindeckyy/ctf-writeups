@@ -1,11 +1,10 @@
 # notes
 
-_2018-06-28_
+_2018-08-16_
 
 ## setup
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
 
 ## findings
 - jwt accepts none alg
@@ -15,4 +14,3 @@ _2018-06-28_
 
 ## next
 - follow up on relay chain
-- ask IT about legacy OU cleanup
