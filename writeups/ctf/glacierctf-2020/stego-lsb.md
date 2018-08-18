@@ -1,6 +1,6 @@
 # stego lsb
 
-_2018-06-24_
+_2018-08-18_
 
 ## setup
 - new vpnsplit setup for the lab
