@@ -1,6 +1,6 @@
 # loot
 
-_2018-06-17_
+_2018-08-18_
 
 ## setup
 - kali vm snapshot rolled back
