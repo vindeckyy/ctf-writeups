@@ -1,11 +1,10 @@
 # reversing crackme
 
-_2018-08-01_
+_2018-08-25_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
 - cert template allows enrollment for DA group
@@ -14,4 +13,3 @@ _2018-08-01_
 
 ## next
 - ask IT about legacy OU cleanup
-- try esc4 template misconfig
