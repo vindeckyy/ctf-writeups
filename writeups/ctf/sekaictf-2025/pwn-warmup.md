@@ -1,11 +1,10 @@
 # pwn warmup
 
-_2018-07-18_
+_2018-09-01_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
-- responder listening on the test vlan
 
 ## findings
 - adcs template esc1 on WebServer
@@ -13,4 +12,3 @@ _2018-07-18_
 
 ## next
 - write detection rule for the fp case
-- map remaining acls in bloodhound
