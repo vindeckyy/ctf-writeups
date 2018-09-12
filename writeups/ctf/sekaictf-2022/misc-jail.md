@@ -1,11 +1,12 @@
 # misc jail
 
-_2018-08-04_
+_2018-09-12_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
 - nfs export no_root_squash
@@ -15,3 +16,4 @@ _2018-08-04_
 ## next
 - map remaining acls in bloodhound
 - sweep ipv6 for live hosts
+- test coercion from workstation context
