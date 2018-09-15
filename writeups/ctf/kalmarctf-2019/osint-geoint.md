@@ -1,6 +1,6 @@
 # osint geoint
 
-_2018-09-14_
+_2018-09-15_
 
 ## setup
 - kali vm snapshot rolled back
