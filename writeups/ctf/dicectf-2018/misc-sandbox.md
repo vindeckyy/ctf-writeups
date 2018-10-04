@@ -1,10 +1,11 @@
 # misc sandbox
 
-_2018-08-11_
+_2018-10-04_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -12,3 +13,4 @@ _2018-08-11_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
