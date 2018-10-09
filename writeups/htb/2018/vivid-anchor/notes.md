@@ -1,6 +1,6 @@
 # notes
 
-_2018-05-12_
+_2018-10-09_
 
 ## setup
 - fresh windows server 2019 box in the lab
