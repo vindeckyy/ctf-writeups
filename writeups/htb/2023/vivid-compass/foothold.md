@@ -1,6 +1,6 @@
 # foothold
 
-_2018-06-12_
+_2018-10-09_
 
 ## setup
 - wsl network tweaks applied
