@@ -1,6 +1,6 @@
 # crypto rsa 101
 
-_2018-10-02_
+_2018-10-09_
 
 ## setup
 - kali vm snapshot rolled back
@@ -8,6 +8,8 @@ _2018-10-02_
 - fresh windows server 2019 box in the lab
 
 ## findings
+- jwt accepts none alg
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
