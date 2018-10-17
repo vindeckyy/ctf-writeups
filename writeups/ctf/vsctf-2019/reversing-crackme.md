@@ -1,19 +1,17 @@
 # reversing crackme
 
-_2018-08-26_
+_2018-10-16_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
-- responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
-- test coercion from workstation context
+- ask IT about legacy OU cleanup
