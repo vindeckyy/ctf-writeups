@@ -1,6 +1,6 @@
 # re dotnet
 
-_2018-06-08_
+_2018-10-28_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
