@@ -1,18 +1,15 @@
 # misc sandbox
 
-_2018-09-14_
+_2018-11-05_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
-- responder listening on the test vlan
-- proxychains + burp chained
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
 ## next
-- write detection rule for the fp case
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
+- check for unconstrained delegation hosts
