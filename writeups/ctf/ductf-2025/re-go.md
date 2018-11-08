@@ -1,6 +1,6 @@
 # re go
 
-_2018-06-17_
+_2018-11-08_
 
 ## setup
 - target: internal lab 10.0.20.0/24
@@ -8,6 +8,8 @@ _2018-06-17_
 - wsl network tweaks applied
 
 ## findings
+- snmp community 'public' read-all
+- rdp nla disabled on legacy box
 - dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
