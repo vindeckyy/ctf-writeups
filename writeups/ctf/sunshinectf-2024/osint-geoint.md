@@ -1,11 +1,10 @@
 # osint geoint
 
-_2018-09-24_
+_2018-11-22_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
 - web01 leaks .env via backup dir
@@ -16,4 +15,3 @@ _2018-09-24_
 
 ## next
 - ask IT about legacy OU cleanup
-- try esc4 template misconfig
