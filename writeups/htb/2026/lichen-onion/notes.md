@@ -1,6 +1,6 @@
 # notes
 
-_2018-09-29_
+_2018-11-22_
 
 ## setup
 - kali vm snapshot rolled back
