@@ -1,14 +1,12 @@
 # re go
 
-_2018-11-16_
+_2018-11-28_
 
 ## setup
 - target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- snmp community 'public' read-all
-- rdp nla disabled on legacy box
 - dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
