@@ -1,17 +1,14 @@
 # forensics usb
 
-_2018-10-28_
+_2018-11-30_
 
 ## setup
-- nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- pull sccm http creds if time allows
+- try esc4 template misconfig
