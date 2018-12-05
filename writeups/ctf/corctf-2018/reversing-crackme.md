@@ -1,6 +1,6 @@
 # reversing crackme
 
-_2018-11-05_
+_2018-12-05_
 
 ## setup
 - responder listening on the test vlan
@@ -8,8 +8,6 @@ _2018-11-05_
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
