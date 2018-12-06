@@ -1,11 +1,10 @@
 # privesc
 
-_2018-09-28_
+_2018-12-06_
 
 ## setup
 - target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
 
 ## findings
 - dns rebinding blocked at resolver
@@ -14,4 +13,3 @@ _2018-09-28_
 
 ## next
 - test coercion from workstation context
-- retest after patch window
