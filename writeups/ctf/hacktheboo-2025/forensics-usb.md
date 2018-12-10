@@ -1,6 +1,6 @@
 # forensics usb
 
-_2018-12-07_
+_2018-12-10_
 
 ## setup
 - fresh windows server 2019 box in the lab
