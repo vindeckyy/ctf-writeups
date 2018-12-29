@@ -1,6 +1,6 @@
 # notes
 
-_2018-12-14_
+_2018-12-29_
 
 ## setup
 - new vpnsplit setup for the lab
