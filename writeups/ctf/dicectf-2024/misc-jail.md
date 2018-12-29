@@ -1,11 +1,10 @@
 # misc jail
 
-_2018-09-29_
+_2018-12-29_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - winrm open on workstations
@@ -14,4 +13,3 @@ _2018-09-29_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
