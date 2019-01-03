@@ -1,6 +1,6 @@
 # crypto rsa 101
 
-_2018-12-17_
+_2019-01-03_
 
 ## setup
 - kali vm snapshot rolled back
