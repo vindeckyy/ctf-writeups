@@ -1,6 +1,6 @@
 # forensics pcap
 
-_2018-11-14_
+_2019-01-02_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2018-11-14_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
