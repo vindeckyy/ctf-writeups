@@ -1,6 +1,6 @@
 # crypto lcg
 
-_2018-11-30_
+_2019-01-05_
 
 ## setup
 - wsl network tweaks applied
