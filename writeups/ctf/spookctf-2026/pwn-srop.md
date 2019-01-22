@@ -1,6 +1,6 @@
 # pwn srop
 
-_2018-09-24_
+_2019-01-22_
 
 ## setup
 - nmap scripts updated from master
@@ -8,8 +8,6 @@ _2018-09-24_
 - proxychains + burp chained
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
