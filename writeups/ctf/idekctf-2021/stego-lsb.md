@@ -1,6 +1,6 @@
 # stego lsb
 
-_2019-01-03_
+_2019-01-24_
 
 ## setup
 - kali vm snapshot rolled back
