@@ -1,10 +1,11 @@
 # foothold
 
-_2018-10-29_
+_2019-01-30_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
 - as-rep roastable: 2 accounts
@@ -15,3 +16,4 @@ _2018-10-29_
 
 ## next
 - map remaining acls in bloodhound
+- sweep ipv6 for live hosts
