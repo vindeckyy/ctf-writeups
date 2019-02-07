@@ -1,11 +1,10 @@
 # pwn ret2libc
 
-_2018-09-13_
+_2019-02-07_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
-- nmap scripts updated from master
 
 ## findings
 - nfs export no_root_squash
@@ -14,4 +13,3 @@ _2018-09-13_
 
 ## next
 - map remaining acls in bloodhound
-- sweep ipv6 for live hosts
