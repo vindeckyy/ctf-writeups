@@ -1,11 +1,10 @@
 # web graphql
 
-_2018-11-19_
+_2019-02-22_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
-- nmap scripts updated from master
 
 ## findings
 - as-rep roastable: 2 accounts
@@ -16,4 +15,3 @@ _2018-11-19_
 
 ## next
 - map remaining acls in bloodhound
-- sweep ipv6 for live hosts
