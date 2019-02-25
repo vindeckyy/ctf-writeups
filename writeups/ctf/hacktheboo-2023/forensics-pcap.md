@@ -1,10 +1,11 @@
 # forensics pcap
 
-_2018-11-27_
+_2019-02-24_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
 - web01 leaks .env via backup dir
@@ -15,3 +16,4 @@ _2018-11-27_
 
 ## next
 - ask IT about legacy OU cleanup
+- try esc4 template misconfig
