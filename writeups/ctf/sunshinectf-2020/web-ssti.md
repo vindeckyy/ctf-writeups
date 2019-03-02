@@ -1,16 +1,16 @@
 # web ssti
 
-_2018-05-10_
+_2019-03-02_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
