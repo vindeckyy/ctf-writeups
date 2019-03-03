@@ -1,6 +1,6 @@
 # pwn ret2libc
 
-_2019-02-09_
+_2019-03-02_
 
 ## setup
 - responder listening on the test vlan
@@ -8,8 +8,6 @@ _2019-02-09_
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
