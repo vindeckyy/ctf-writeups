@@ -1,14 +1,15 @@
 # recon
 
-_2019-01-08_
+_2019-03-06_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- try esc4 template misconfig
+- check for unconstrained delegation hosts
