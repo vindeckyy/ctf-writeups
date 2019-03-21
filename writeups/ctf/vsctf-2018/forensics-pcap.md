@@ -1,6 +1,6 @@
 # forensics pcap
 
-_2019-02-13_
+_2019-03-21_
 
 ## setup
 - responder listening on the test vlan
@@ -9,6 +9,8 @@ _2019-02-13_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
