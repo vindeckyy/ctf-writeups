@@ -1,6 +1,6 @@
 # foothold
 
-_2018-08-23_
+_2019-03-26_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2018-08-23_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
