@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2019-02-15_
+_2019-04-01_
 
 ## setup
 - nmap scripts updated from master
@@ -9,6 +9,8 @@ _2019-02-15_
 - kali vm snapshot rolled back
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
