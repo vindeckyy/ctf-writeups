@@ -1,10 +1,12 @@
 # loot
 
-_2019-02-08_
+_2019-04-02_
 
 ## setup
 - target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
 - dns rebinding blocked at resolver
@@ -13,3 +15,5 @@ _2019-02-08_
 
 ## next
 - test coercion from workstation context
+- retest after patch window
+- check for unconstrained delegation hosts
