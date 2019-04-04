@@ -1,6 +1,6 @@
 # misc cage
 
-_2019-03-15_
+_2019-04-04_
 
 ## setup
 - target: internal lab 10.0.20.0/24
@@ -8,8 +8,6 @@ _2019-03-15_
 - wsl network tweaks applied
 
 ## findings
-- snmp community 'public' read-all
-- rdp nla disabled on legacy box
 - dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
