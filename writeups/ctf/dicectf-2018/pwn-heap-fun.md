@@ -1,11 +1,10 @@
 # pwn heap fun
 
-_2019-02-19_
+_2019-04-08_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
 - web01 leaks .env via backup dir
@@ -16,4 +15,3 @@ _2019-02-19_
 
 ## next
 - ask IT about legacy OU cleanup
-- try esc4 template misconfig
