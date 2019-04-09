@@ -1,6 +1,6 @@
 # pwn srop
 
-_2019-01-27_
+_2019-04-09_
 
 ## setup
 - responder listening on the test vlan
@@ -8,8 +8,6 @@ _2019-01-27_
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
