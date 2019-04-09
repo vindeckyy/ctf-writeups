@@ -1,6 +1,6 @@
 # foothold
 
-_2019-02-22_
+_2019-04-08_
 
 ## setup
 - kali vm snapshot rolled back
@@ -8,8 +8,6 @@ _2019-02-22_
 - fresh windows server 2019 box in the lab
 
 ## findings
-- jwt accepts none alg
-- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
