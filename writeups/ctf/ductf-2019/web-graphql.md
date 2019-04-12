@@ -1,16 +1,15 @@
 # web graphql
 
-_2018-10-10_
+_2019-04-12_
 
 ## setup
+- nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- try esc4 template misconfig
 - pull sccm http creds if time allows
