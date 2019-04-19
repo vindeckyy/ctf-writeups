@@ -1,11 +1,10 @@
 # pwn srop
 
-_2019-01-22_
+_2019-04-18_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -16,4 +15,3 @@ _2019-01-22_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
