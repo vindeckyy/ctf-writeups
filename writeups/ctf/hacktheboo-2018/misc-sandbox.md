@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2019-03-01_
+_2019-04-22_
 
 ## setup
 - responder listening on the test vlan
@@ -9,8 +9,6 @@ _2019-03-01_
 - mitm6 paired with ntlmrelayx
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
