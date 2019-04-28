@@ -1,11 +1,10 @@
 # stego lsb
 
-_2019-01-19_
+_2019-04-28_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -13,4 +12,3 @@ _2019-01-19_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
