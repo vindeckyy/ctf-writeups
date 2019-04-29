@@ -1,6 +1,6 @@
 # pwn warmup
 
-_2019-04-28_
+_2019-04-29_
 
 ## setup
 - proxychains + burp chained
