@@ -1,6 +1,6 @@
 # crypto factory
 
-_2019-04-12_
+_2019-05-01_
 
 ## setup
 - nmap scripts updated from master
@@ -8,8 +8,6 @@ _2019-04-12_
 - proxychains + burp chained
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
