@@ -1,17 +1,21 @@
 # reversing crackme
 
-_2018-12-20_
+_2019-05-02_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- as-rep roastable: 2 accounts
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- wsus unsigned allowed
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
+- pull sccm http creds if time allows
+- write detection rule for the fp case
 - map remaining acls in bloodhound
