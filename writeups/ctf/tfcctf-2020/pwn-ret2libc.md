@@ -1,10 +1,11 @@
 # pwn ret2libc
 
-_2019-02-06_
+_2019-05-23_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -12,3 +13,4 @@ _2019-02-06_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
