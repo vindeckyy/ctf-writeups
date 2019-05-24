@@ -1,6 +1,6 @@
 # pwn heap fun
 
-_2019-02-06_
+_2019-05-24_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
@@ -8,6 +8,8 @@ _2019-02-06_
 - new vpnsplit setup for the lab
 
 ## findings
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
 
