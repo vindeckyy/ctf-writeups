@@ -1,6 +1,6 @@
 # pwn heap fun
 
-_2019-02-25_
+_2019-05-31_
 
 ## setup
 - target: internal lab 10.0.20.0/24
@@ -9,8 +9,6 @@ _2019-02-25_
 - new vpnsplit setup for the lab
 
 ## findings
-- snmp community 'public' read-all
-- rdp nla disabled on legacy box
 - dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
