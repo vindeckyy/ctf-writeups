@@ -1,6 +1,6 @@
 # crypto factory
 
-_2019-04-08_
+_2019-06-18_
 
 ## setup
 - fresh windows server 2019 box in the lab
@@ -9,6 +9,8 @@ _2019-04-08_
 - wsl network tweaks applied
 
 ## findings
+- printers reachable from guest vlan
+- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
