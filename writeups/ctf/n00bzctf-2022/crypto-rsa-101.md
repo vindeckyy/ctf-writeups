@@ -1,16 +1,18 @@
 # crypto rsa 101
 
-_2019-06-07_
+_2019-06-21_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
+- write detection rule for the fp case
