@@ -1,15 +1,15 @@
 # misc jail
 
-_2019-03-05_
+_2019-06-27_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- map remaining acls in bloodhound
+- check for unconstrained delegation hosts
