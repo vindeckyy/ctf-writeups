@@ -1,10 +1,11 @@
 # notes
 
-_2019-03-27_
+_2019-07-02_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - winrm open on workstations
@@ -13,3 +14,4 @@ _2019-03-27_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
