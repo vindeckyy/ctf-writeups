@@ -1,6 +1,6 @@
 # crypto elgamal
 
-_2019-06-02_
+_2019-07-16_
 
 ## setup
 - mitm6 paired with ntlmrelayx
@@ -9,6 +9,8 @@ _2019-06-02_
 - f_proxy moved to 127.0.0.1:8080
 
 ## findings
+- ldap anon bind still works
+- gpp leftovers on legacy OU
 - host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
