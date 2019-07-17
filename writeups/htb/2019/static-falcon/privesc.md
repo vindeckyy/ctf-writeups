@@ -1,6 +1,6 @@
 # privesc
 
-_2019-05-20_
+_2019-07-17_
 
 ## setup
 - fresh windows server 2019 box in the lab
@@ -9,8 +9,6 @@ _2019-05-20_
 - wsl network tweaks applied
 
 ## findings
-- printers reachable from guest vlan
-- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
