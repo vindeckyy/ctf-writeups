@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2019-05-24_
+_2019-07-23_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2019-05-24_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
