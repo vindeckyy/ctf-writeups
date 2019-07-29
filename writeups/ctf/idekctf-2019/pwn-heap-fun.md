@@ -1,17 +1,14 @@
 # pwn heap fun
 
-_2019-05-07_
+_2019-07-29_
 
 ## setup
-- nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- pull sccm http creds if time allows
+- try esc4 template misconfig
