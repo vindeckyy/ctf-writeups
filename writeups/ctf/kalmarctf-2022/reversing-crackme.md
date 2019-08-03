@@ -1,12 +1,11 @@
 # reversing crackme
 
-_2019-07-14_
+_2019-08-02_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - winrm open on workstations
@@ -16,4 +15,3 @@ _2019-07-14_
 ## next
 - pull sccm http creds if time allows
 - write detection rule for the fp case
-- map remaining acls in bloodhound
