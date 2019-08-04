@@ -1,6 +1,6 @@
 # root
 
-_2018-12-30_
+_2019-08-04_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2018-12-30_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
