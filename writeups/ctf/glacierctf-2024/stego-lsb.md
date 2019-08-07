@@ -1,6 +1,6 @@
 # stego lsb
 
-_2019-05-21_
+_2019-08-07_
 
 ## setup
 - responder listening on the test vlan
@@ -9,6 +9,8 @@ _2019-05-21_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
