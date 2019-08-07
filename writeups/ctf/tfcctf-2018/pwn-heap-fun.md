@@ -1,16 +1,15 @@
 # pwn heap fun
 
-_2019-06-22_
+_2019-08-07_
 
 ## setup
+- proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- follow up on relay chain
+- ask IT about legacy OU cleanup
