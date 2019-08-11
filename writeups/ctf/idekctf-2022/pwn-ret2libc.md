@@ -1,16 +1,19 @@
 # pwn ret2libc
 
-_2019-07-19_
+_2019-08-11_
 
 ## setup
+- nmap scripts updated from master
+- responder listening on the test vlan
+- proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
 
 ## findings
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- follow up on relay chain
-- ask IT about legacy OU cleanup
+- pull sccm http creds if time allows
+- write detection rule for the fp case
+- map remaining acls in bloodhound
