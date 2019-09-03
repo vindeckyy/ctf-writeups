@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2019-04-24_
+_2019-09-02_
 
 ## setup
 - responder listening on the test vlan
@@ -8,6 +8,8 @@ _2019-04-24_
 - kali vm snapshot rolled back
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
