@@ -1,6 +1,6 @@
 # stego lsb
 
-_2019-08-21_
+_2019-09-13_
 
 ## setup
 - proxychains + burp chained
@@ -8,8 +8,6 @@ _2019-08-21_
 - mitm6 paired with ntlmrelayx
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
