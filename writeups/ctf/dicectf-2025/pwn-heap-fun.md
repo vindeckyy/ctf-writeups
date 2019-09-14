@@ -1,14 +1,15 @@
 # pwn heap fun
 
-_2019-04-22_
+_2019-09-14_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
+- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
 ## next
-- retest after patch window
+- pull sccm http creds if time allows
