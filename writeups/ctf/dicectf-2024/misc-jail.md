@@ -1,18 +1,14 @@
 # misc jail
 
-_2019-08-03_
+_2019-09-14_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- follow up on relay chain
