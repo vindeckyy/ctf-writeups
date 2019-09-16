@@ -1,17 +1,14 @@
 # web baby
 
-_2019-07-30_
+_2019-09-16_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- as-rep roastable: 2 accounts
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- map remaining acls in bloodhound
+- try esc4 template misconfig
