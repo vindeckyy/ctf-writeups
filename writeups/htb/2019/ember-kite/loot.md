@@ -1,6 +1,6 @@
 # loot
 
-_2019-08-22_
+_2019-09-25_
 
 ## setup
 - wsl network tweaks applied
@@ -8,8 +8,6 @@ _2019-08-22_
 - nmap scripts updated from master
 
 ## findings
-- as-rep roastable: 2 accounts
-- jwt accepts none alg
 - nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
