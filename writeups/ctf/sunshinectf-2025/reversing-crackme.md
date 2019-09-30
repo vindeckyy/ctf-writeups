@@ -1,6 +1,6 @@
 # reversing crackme
 
-_2019-05-29_
+_2019-09-30_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2019-05-29_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
