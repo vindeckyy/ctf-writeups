@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2019-06-03_
+_2019-10-03_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -9,6 +9,8 @@ _2019-06-03_
 - proxychains + burp chained
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
