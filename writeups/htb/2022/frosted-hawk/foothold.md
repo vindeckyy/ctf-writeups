@@ -1,6 +1,6 @@
 # foothold
 
-_2019-09-03_
+_2019-10-04_
 
 ## setup
 - fresh windows server 2019 box in the lab
