@@ -1,6 +1,6 @@
 # crypto rsa 101
 
-_2019-09-27_
+_2019-10-15_
 
 ## setup
 - target: internal lab 10.0.20.0/24
@@ -8,8 +8,6 @@ _2019-09-27_
 - wsl network tweaks applied
 
 ## findings
-- snmp community 'public' read-all
-- rdp nla disabled on legacy box
 - dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
