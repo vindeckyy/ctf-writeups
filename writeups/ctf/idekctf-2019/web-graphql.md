@@ -1,6 +1,6 @@
 # web graphql
 
-_2019-08-15_
+_2019-10-21_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,8 +8,6 @@ _2019-08-15_
 - responder listening on the test vlan
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
