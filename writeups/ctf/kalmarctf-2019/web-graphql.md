@@ -1,17 +1,16 @@
 # web graphql
 
-_2019-03-18_
+_2019-10-22_
 
 ## setup
+- responder listening on the test vlan
 - proxychains + burp chained
 - kali vm snapshot rolled back
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- ask IT about legacy OU cleanup
+- try esc4 template misconfig
+- pull sccm http creds if time allows
