@@ -1,6 +1,6 @@
 # foothold
 
-_2019-09-22_
+_2019-10-24_
 
 ## setup
 - new vpnsplit setup for the lab
