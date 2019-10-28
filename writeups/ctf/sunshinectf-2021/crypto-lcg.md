@@ -1,15 +1,19 @@
 # crypto lcg
 
-_2019-10-22_
+_2019-10-28_
 
 ## setup
+- nmap scripts updated from master
+- responder listening on the test vlan
 - proxychains + burp chained
 - kali vm snapshot rolled back
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- ask IT about legacy OU cleanup
+- pull sccm http creds if time allows
+- write detection rule for the fp case
+- map remaining acls in bloodhound
