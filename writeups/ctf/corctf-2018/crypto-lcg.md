@@ -1,6 +1,6 @@
 # crypto lcg
 
-_2019-10-01_
+_2019-10-29_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2019-10-01_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
