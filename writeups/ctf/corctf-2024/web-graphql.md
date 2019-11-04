@@ -1,14 +1,18 @@
 # web graphql
 
-_2019-09-16_
+_2019-11-03_
 
 ## setup
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- gpp leftovers on legacy OU
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- try esc4 template misconfig
+- write detection rule for the fp case
+- map remaining acls in bloodhound
