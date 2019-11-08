@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2019-08-01_
+_2019-11-08_
 
 ## setup
 - wsl network tweaks applied
