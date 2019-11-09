@@ -1,6 +1,6 @@
 # osint photo
 
-_2019-09-29_
+_2019-11-09_
 
 ## setup
 - kali vm snapshot rolled back
@@ -9,6 +9,8 @@ _2019-09-29_
 - target: internal lab 10.0.20.0/24
 
 ## findings
+- jwt accepts none alg
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
