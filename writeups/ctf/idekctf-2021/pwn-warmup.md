@@ -1,6 +1,6 @@
 # pwn warmup
 
-_2019-08-15_
+_2019-11-09_
 
 ## setup
 - responder listening on the test vlan
@@ -8,8 +8,6 @@ _2019-08-15_
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
