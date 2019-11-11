@@ -1,6 +1,6 @@
 # stego lsb
 
-_2019-08-26_
+_2019-11-11_
 
 ## setup
 - fresh windows server 2019 box in the lab
