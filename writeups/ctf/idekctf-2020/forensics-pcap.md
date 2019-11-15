@@ -1,11 +1,10 @@
 # forensics pcap
 
-_2019-06-11_
+_2019-11-15_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -16,4 +15,3 @@ _2019-06-11_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
