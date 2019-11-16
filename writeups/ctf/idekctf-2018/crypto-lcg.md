@@ -1,11 +1,10 @@
 # crypto lcg
 
-_2019-08-28_
+_2019-11-15_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -15,4 +14,3 @@ _2019-08-28_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
