@@ -1,11 +1,10 @@
 # osint photo
 
-_2019-05-04_
+_2019-11-23_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
-- nmap scripts updated from master
 
 ## findings
 - nfs export no_root_squash
@@ -14,4 +13,3 @@ _2019-05-04_
 
 ## next
 - map remaining acls in bloodhound
-- sweep ipv6 for live hosts
