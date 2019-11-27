@@ -1,11 +1,10 @@
 # osint geoint
 
-_2019-09-29_
+_2019-11-26_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
-- responder listening on the test vlan
 
 ## findings
 - gpp leftovers on legacy OU
@@ -15,4 +14,3 @@ _2019-09-29_
 
 ## next
 - write detection rule for the fp case
-- map remaining acls in bloodhound
