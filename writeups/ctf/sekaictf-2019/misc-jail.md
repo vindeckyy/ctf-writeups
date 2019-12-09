@@ -1,12 +1,10 @@
 # misc jail
 
-_2019-07-04_
+_2019-12-08_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
 - mssql linked server to dc
@@ -14,5 +12,3 @@ _2019-07-04_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
-- write detection rule for the fp case
