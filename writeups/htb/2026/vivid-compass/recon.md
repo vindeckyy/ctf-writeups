@@ -1,10 +1,11 @@
 # recon
 
-_2019-12-09_
+_2019-12-25_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -14,3 +15,4 @@ _2019-12-09_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
