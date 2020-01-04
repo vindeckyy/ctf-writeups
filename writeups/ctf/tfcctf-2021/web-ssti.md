@@ -1,6 +1,6 @@
 # web ssti
 
-_2019-12-25_
+_2020-01-04_
 
 ## setup
 - responder listening on the test vlan
@@ -8,8 +8,6 @@ _2019-12-25_
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
