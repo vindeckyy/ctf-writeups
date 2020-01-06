@@ -1,6 +1,6 @@
 # privesc
 
-_2019-10-11_
+_2020-01-05_
 
 ## setup
 - fresh windows server 2019 box in the lab
