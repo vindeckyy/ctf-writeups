@@ -1,6 +1,6 @@
 # loot
 
-_2019-11-26_
+_2020-01-25_
 
 ## setup
 - target: internal lab 10.0.20.0/24
