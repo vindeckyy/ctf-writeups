@@ -1,6 +1,6 @@
 # privesc
 
-_2019-11-14_
+_2020-02-03_
 
 ## setup
 - mitm6 paired with ntlmrelayx
