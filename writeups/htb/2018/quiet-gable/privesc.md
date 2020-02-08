@@ -1,17 +1,17 @@
 # privesc
 
-_2019-12-09_
+_2020-02-07_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- as-rep roastable: 2 accounts
+- jwt accepts none alg
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
+- map remaining acls in bloodhound
