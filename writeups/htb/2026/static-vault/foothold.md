@@ -1,6 +1,6 @@
 # foothold
 
-_2019-07-21_
+_2020-02-11_
 
 ## setup
 - mitm6 paired with ntlmrelayx
