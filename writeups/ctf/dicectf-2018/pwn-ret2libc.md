@@ -1,10 +1,11 @@
 # pwn ret2libc
 
-_2020-01-20_
+_2020-02-12_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
 - cert template allows enrollment for DA group
@@ -13,3 +14,4 @@ _2020-01-20_
 
 ## next
 - ask IT about legacy OU cleanup
+- try esc4 template misconfig
