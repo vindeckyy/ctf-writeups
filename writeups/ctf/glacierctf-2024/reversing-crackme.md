@@ -1,10 +1,11 @@
 # reversing crackme
 
-_2019-11-03_
+_2020-02-17_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
 - nfs export no_root_squash
@@ -13,3 +14,4 @@ _2019-11-03_
 
 ## next
 - map remaining acls in bloodhound
+- sweep ipv6 for live hosts
