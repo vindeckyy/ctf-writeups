@@ -1,6 +1,6 @@
 # osint photo
 
-_2020-01-02_
+_2020-02-28_
 
 ## setup
 - wsl network tweaks applied
