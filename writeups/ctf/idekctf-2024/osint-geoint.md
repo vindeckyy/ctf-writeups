@@ -1,14 +1,15 @@
 # osint geoint
 
-_2019-10-31_
+_2020-03-02_
 
 ## setup
+- wsl network tweaks applied
 - new vpnsplit setup for the lab
-- nmap scripts updated from master
 
 ## findings
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- write detection rule for the fp case
+- map remaining acls in bloodhound
