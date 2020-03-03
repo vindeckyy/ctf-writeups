@@ -1,6 +1,6 @@
 # pwn srop
 
-_2019-10-28_
+_2020-03-03_
 
 ## setup
 - wsl network tweaks applied
@@ -9,6 +9,8 @@ _2019-10-28_
 - responder listening on the test vlan
 
 ## findings
+- as-rep roastable: 2 accounts
+- jwt accepts none alg
 - nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
