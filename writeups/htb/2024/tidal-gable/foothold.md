@@ -1,11 +1,10 @@
 # foothold
 
-_2020-02-16_
+_2020-03-04_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -16,4 +15,3 @@ _2020-02-16_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
