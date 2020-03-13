@@ -1,15 +1,17 @@
 # privesc
 
-_2019-10-28_
+_2020-03-12_
 
 ## setup
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- wsus unsigned allowed
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- check for unconstrained delegation hosts
+- pull sccm http creds if time allows
