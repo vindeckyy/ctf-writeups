@@ -1,10 +1,11 @@
 # re dotnet
 
-_2019-12-17_
+_2020-03-17_
 
 ## setup
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
 - smb signing disabled on 3 hosts
@@ -12,3 +13,4 @@ _2019-12-17_
 
 ## next
 - follow up on relay chain
+- ask IT about legacy OU cleanup
