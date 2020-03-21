@@ -1,6 +1,6 @@
 # foothold
 
-_2020-02-25_
+_2020-03-21_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,8 +8,6 @@ _2020-02-25_
 - responder listening on the test vlan
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
