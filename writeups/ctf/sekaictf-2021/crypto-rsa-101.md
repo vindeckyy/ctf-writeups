@@ -1,6 +1,6 @@
 # crypto rsa 101
 
-_2019-09-26_
+_2020-03-26_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -9,8 +9,6 @@ _2019-09-26_
 - proxychains + burp chained
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
