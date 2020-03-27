@@ -1,12 +1,10 @@
 # re go
 
-_2019-09-13_
+_2020-03-26_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
-- responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - gpp leftovers on legacy OU
@@ -16,5 +14,3 @@ _2019-09-13_
 
 ## next
 - write detection rule for the fp case
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
