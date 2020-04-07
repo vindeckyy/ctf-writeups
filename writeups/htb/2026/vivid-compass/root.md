@@ -1,10 +1,11 @@
 # root
 
-_2020-01-11_
+_2020-04-07_
 
 ## setup
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
 - smb signing disabled on 3 hosts
@@ -12,3 +13,4 @@ _2020-01-11_
 
 ## next
 - follow up on relay chain
+- ask IT about legacy OU cleanup
