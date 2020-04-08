@@ -1,21 +1,14 @@
 # forensics pcap
 
-_2020-03-26_
+_2020-04-08_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- retest after patch window
