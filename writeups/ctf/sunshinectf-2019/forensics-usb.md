@@ -1,6 +1,6 @@
 # forensics usb
 
-_2020-04-06_
+_2020-04-07_
 
 ## setup
 - wsl network tweaks applied
