@@ -1,14 +1,12 @@
 # stego lsb
 
-_2019-09-16_
+_2020-04-09_
 
 ## setup
 - mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
 
 ## findings
-- ldap anon bind still works
-- gpp leftovers on legacy OU
 - host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
