@@ -1,6 +1,6 @@
 # osint geoint
 
-_2019-12-21_
+_2020-04-12_
 
 ## setup
 - mitm6 paired with ntlmrelayx
