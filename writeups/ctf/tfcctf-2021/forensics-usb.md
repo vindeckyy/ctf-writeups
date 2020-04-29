@@ -1,16 +1,14 @@
 # forensics usb
 
-_2019-08-30_
+_2020-04-29_
 
 ## setup
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- sweep ipv6 for live hosts
-- test coercion from workstation context
+- try esc4 template misconfig
