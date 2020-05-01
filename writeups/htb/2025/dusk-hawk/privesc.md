@@ -1,10 +1,11 @@
 # privesc
 
-_2020-03-13_
+_2020-05-01_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -14,3 +15,4 @@ _2020-03-13_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
