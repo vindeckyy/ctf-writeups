@@ -1,6 +1,6 @@
 # notes
 
-_2019-12-16_
+_2020-05-05_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
@@ -8,8 +8,6 @@ _2019-12-16_
 - new vpnsplit setup for the lab
 
 ## findings
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
 
