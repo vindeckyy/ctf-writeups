@@ -1,6 +1,6 @@
 # osint photo
 
-_2020-01-14_
+_2020-05-07_
 
 ## setup
 - proxychains + burp chained
@@ -8,6 +8,8 @@ _2020-01-14_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
