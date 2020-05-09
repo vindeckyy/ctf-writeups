@@ -1,6 +1,6 @@
 # stego lsb
 
-_2020-04-12_
+_2020-05-08_
 
 ## setup
 - responder listening on the test vlan
@@ -8,6 +8,8 @@ _2020-04-12_
 - kali vm snapshot rolled back
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
