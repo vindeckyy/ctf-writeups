@@ -1,10 +1,11 @@
 # forensics memory
 
-_2020-04-29_
+_2020-05-12_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - winrm open on workstations
@@ -13,3 +14,4 @@ _2020-04-29_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
