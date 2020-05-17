@@ -1,6 +1,6 @@
 # reversing crackme
 
-_2020-04-02_
+_2020-05-17_
 
 ## setup
 - responder listening on the test vlan
@@ -9,8 +9,6 @@ _2020-04-02_
 - mitm6 paired with ntlmrelayx
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
