@@ -1,6 +1,6 @@
 # crypto rsa 101
 
-_2020-02-20_
+_2020-05-18_
 
 ## setup
 - responder listening on the test vlan
@@ -8,8 +8,6 @@ _2020-02-20_
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
