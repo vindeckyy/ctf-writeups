@@ -1,6 +1,6 @@
 # web graphql
 
-_2020-05-04_
+_2020-05-25_
 
 ## setup
 - wsl network tweaks applied
