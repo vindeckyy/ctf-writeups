@@ -1,6 +1,6 @@
 # osint geoint
 
-_2019-12-30_
+_2020-05-26_
 
 ## setup
 - nmap scripts updated from master
