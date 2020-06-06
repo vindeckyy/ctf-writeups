@@ -1,11 +1,10 @@
 # web ssti
 
-_2020-05-13_
+_2020-06-06_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
-- responder listening on the test vlan
 
 ## findings
 - adcs template esc1 on WebServer
@@ -13,4 +12,3 @@ _2020-05-13_
 
 ## next
 - write detection rule for the fp case
-- map remaining acls in bloodhound
