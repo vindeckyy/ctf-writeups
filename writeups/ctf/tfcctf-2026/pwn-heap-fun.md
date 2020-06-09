@@ -1,6 +1,6 @@
 # pwn heap fun
 
-_2020-04-07_
+_2020-06-09_
 
 ## setup
 - responder listening on the test vlan
@@ -9,8 +9,6 @@ _2020-04-07_
 - mitm6 paired with ntlmrelayx
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
