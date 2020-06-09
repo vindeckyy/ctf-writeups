@@ -1,6 +1,6 @@
 # loot
 
-_2020-04-02_
+_2020-06-08_
 
 ## setup
 - fresh windows server 2019 box in the lab
