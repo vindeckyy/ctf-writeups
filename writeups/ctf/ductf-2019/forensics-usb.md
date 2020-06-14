@@ -1,10 +1,11 @@
 # forensics usb
 
-_2020-05-10_
+_2020-06-14_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -15,3 +16,4 @@ _2020-05-10_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
