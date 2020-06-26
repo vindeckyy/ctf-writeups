@@ -1,6 +1,6 @@
 # re dotnet
 
-_2020-04-13_
+_2020-06-26_
 
 ## setup
 - wsl network tweaks applied
