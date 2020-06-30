@@ -1,12 +1,10 @@
 # misc jail
 
-_2020-06-09_
+_2020-06-29_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
 - rdp nla disabled on legacy box
@@ -16,5 +14,3 @@ _2020-06-09_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
-- write detection rule for the fp case
