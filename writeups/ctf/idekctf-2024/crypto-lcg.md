@@ -1,6 +1,6 @@
 # crypto lcg
 
-_2020-05-16_
+_2020-06-30_
 
 ## setup
 - mitm6 paired with ntlmrelayx
