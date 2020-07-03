@@ -1,6 +1,6 @@
 # pwn warmup
 
-_2020-01-07_
+_2020-07-03_
 
 ## setup
 - proxychains + burp chained
