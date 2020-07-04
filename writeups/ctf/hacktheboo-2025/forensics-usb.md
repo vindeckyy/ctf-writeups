@@ -1,6 +1,6 @@
 # forensics usb
 
-_2020-02-14_
+_2020-07-04_
 
 ## setup
 - mitm6 paired with ntlmrelayx
