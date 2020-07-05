@@ -1,6 +1,6 @@
 # re dotnet
 
-_2020-05-23_
+_2020-07-05_
 
 ## setup
 - fresh windows server 2019 box in the lab
