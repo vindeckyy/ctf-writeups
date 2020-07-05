@@ -1,11 +1,10 @@
 # misc cage
 
-_2020-02-05_
+_2020-07-05_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
-- new vpnsplit setup for the lab
 
 ## findings
 - docker socket mounted in ci runner
@@ -15,4 +14,3 @@ _2020-02-05_
 
 ## next
 - sweep ipv6 for live hosts
-- test coercion from workstation context
