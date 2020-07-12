@@ -1,10 +1,11 @@
 # reversing crackme
 
-_2019-12-24_
+_2020-07-12_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
 - adcs template esc1 on WebServer
@@ -12,3 +13,4 @@ _2019-12-24_
 
 ## next
 - write detection rule for the fp case
+- map remaining acls in bloodhound
