@@ -1,16 +1,16 @@
 # pwn srop
 
-_2020-06-05_
+_2020-07-15_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
