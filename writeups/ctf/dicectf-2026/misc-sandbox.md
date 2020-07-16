@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2020-04-11_
+_2020-07-15_
 
 ## setup
 - kali vm snapshot rolled back
