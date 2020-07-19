@@ -1,6 +1,6 @@
 # web ssti
 
-_2020-06-04_
+_2020-07-18_
 
 ## setup
 - target: internal lab 10.0.20.0/24
