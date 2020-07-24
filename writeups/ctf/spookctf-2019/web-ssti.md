@@ -1,10 +1,11 @@
 # web ssti
 
-_2020-03-14_
+_2020-07-24_
 
 ## setup
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
 - smb signing disabled on 3 hosts
@@ -12,3 +13,4 @@ _2020-03-14_
 
 ## next
 - follow up on relay chain
+- ask IT about legacy OU cleanup
