@@ -1,14 +1,12 @@
 # osint photo
 
-_2019-12-07_
+_2020-07-26_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
