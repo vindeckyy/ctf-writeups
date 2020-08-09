@@ -1,6 +1,6 @@
 # forensics pcap
 
-_2020-05-06_
+_2020-08-09_
 
 ## setup
 - fresh windows server 2019 box in the lab
@@ -9,6 +9,8 @@ _2020-05-06_
 - wsl network tweaks applied
 
 ## findings
+- printers reachable from guest vlan
+- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
