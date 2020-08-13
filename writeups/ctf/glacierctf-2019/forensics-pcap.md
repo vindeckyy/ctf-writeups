@@ -1,12 +1,14 @@
 # forensics pcap
 
-_2020-05-06_
+_2020-08-13_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
