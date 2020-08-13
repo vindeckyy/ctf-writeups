@@ -1,11 +1,10 @@
 # web graphql
 
-_2020-03-25_
+_2020-08-13_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
-- new vpnsplit setup for the lab
 
 ## findings
 - kerberoastable: svc_backup, svc_sql
@@ -13,4 +12,3 @@ _2020-03-25_
 
 ## next
 - sweep ipv6 for live hosts
-- test coercion from workstation context
