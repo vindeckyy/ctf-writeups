@@ -1,11 +1,10 @@
 # pwn warmup
 
-_2020-03-24_
+_2020-08-13_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -16,4 +15,3 @@ _2020-03-24_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
