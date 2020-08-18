@@ -1,6 +1,6 @@
 # crypto factory
 
-_2020-07-21_
+_2020-08-18_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
