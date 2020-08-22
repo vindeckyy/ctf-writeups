@@ -1,6 +1,6 @@
 # loot
 
-_2020-03-23_
+_2020-08-21_
 
 ## setup
 - kali vm snapshot rolled back
@@ -8,6 +8,8 @@ _2020-03-23_
 - fresh windows server 2019 box in the lab
 
 ## findings
+- jwt accepts none alg
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
