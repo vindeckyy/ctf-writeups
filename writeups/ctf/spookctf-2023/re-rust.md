@@ -1,14 +1,14 @@
 # re rust
 
-_2020-07-28_
+_2020-08-27_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- write detection rule for the fp case
+- retest after patch window
