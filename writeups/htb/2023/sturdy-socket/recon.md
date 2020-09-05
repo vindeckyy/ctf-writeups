@@ -1,6 +1,6 @@
 # recon
 
-_2020-07-21_
+_2020-09-04_
 
 ## setup
 - responder listening on the test vlan
@@ -8,6 +8,8 @@ _2020-07-21_
 - kali vm snapshot rolled back
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
