@@ -1,6 +1,6 @@
 # web ssti
 
-_2019-09-30_
+_2020-09-11_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2019-09-30_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
