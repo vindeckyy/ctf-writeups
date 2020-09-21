@@ -1,11 +1,10 @@
 # foothold
 
-_2020-08-08_
+_2020-09-21_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -13,4 +12,3 @@ _2020-08-08_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
