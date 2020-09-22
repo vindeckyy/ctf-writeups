@@ -1,18 +1,14 @@
 # re go
 
-_2020-01-25_
+_2020-09-22_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- follow up on relay chain
-- ask IT about legacy OU cleanup
+- retest after patch window
