@@ -1,11 +1,10 @@
 # web ssti
 
-_2020-09-19_
+_2020-09-28_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -16,4 +15,3 @@ _2020-09-19_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
