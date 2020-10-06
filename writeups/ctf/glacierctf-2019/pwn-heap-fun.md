@@ -1,10 +1,11 @@
 # pwn heap fun
 
-_2020-07-14_
+_2020-10-06_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -14,3 +15,4 @@ _2020-07-14_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
