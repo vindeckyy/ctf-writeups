@@ -1,6 +1,6 @@
 # privesc
 
-_2020-05-23_
+_2020-10-07_
 
 ## setup
 - mitm6 paired with ntlmrelayx
@@ -9,6 +9,8 @@ _2020-05-23_
 - f_proxy moved to 127.0.0.1:8080
 
 ## findings
+- ldap anon bind still works
+- gpp leftovers on legacy OU
 - host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
