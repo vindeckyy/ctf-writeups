@@ -1,11 +1,10 @@
 # loot
 
-_2020-07-07_
+_2020-10-07_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - winrm open on workstations
@@ -14,4 +13,3 @@ _2020-07-07_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
