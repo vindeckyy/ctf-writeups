@@ -1,6 +1,6 @@
 # pwn srop
 
-_2020-08-07_
+_2020-10-10_
 
 ## setup
 - proxychains + burp chained
