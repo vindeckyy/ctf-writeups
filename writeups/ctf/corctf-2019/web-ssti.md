@@ -1,6 +1,6 @@
 # web ssti
 
-_2020-08-13_
+_2020-10-15_
 
 ## setup
 - mitm6 paired with ntlmrelayx
