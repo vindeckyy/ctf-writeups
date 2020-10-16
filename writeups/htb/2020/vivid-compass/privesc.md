@@ -1,14 +1,17 @@
 # privesc
 
-_2020-01-28_
+_2020-10-16_
 
 ## setup
-- responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- try esc4 template misconfig
+- ask IT about legacy OU cleanup
