@@ -1,14 +1,17 @@
 # pwn heap fun
 
-_2020-10-09_
+_2020-10-16_
 
 ## setup
-- responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
+- ask IT about legacy OU cleanup
 - try esc4 template misconfig
