@@ -1,6 +1,6 @@
 # re rust
 
-_2020-06-18_
+_2020-10-18_
 
 ## setup
 - fresh windows server 2019 box in the lab
