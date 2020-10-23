@@ -1,16 +1,15 @@
 # web crlf
 
-_2020-04-15_
+_2020-10-23_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- follow up on relay chain
+- pull sccm http creds if time allows
