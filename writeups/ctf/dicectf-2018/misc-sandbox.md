@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2020-02-27_
+_2020-10-26_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,8 +8,6 @@ _2020-02-27_
 - responder listening on the test vlan
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
