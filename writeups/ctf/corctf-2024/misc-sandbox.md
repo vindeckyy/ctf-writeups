@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2020-08-24_
+_2020-10-27_
 
 ## setup
 - mitm6 paired with ntlmrelayx
