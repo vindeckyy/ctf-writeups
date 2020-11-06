@@ -1,6 +1,6 @@
 # pwn srop
 
-_2020-05-22_
+_2020-11-06_
 
 ## setup
 - proxychains + burp chained
@@ -8,6 +8,8 @@ _2020-05-22_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
