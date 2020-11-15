@@ -1,16 +1,16 @@
 # root
 
-_2020-06-09_
+_2020-11-15_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- write detection rule for the fp case
-- map remaining acls in bloodhound
+- try esc4 template misconfig
