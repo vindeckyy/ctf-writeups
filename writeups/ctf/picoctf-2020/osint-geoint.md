@@ -1,6 +1,6 @@
 # osint geoint
 
-_2020-08-27_
+_2020-11-18_
 
 ## setup
 - wsl network tweaks applied
