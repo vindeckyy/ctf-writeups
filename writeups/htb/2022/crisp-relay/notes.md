@@ -1,6 +1,6 @@
 # notes
 
-_2020-09-30_
+_2020-11-18_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -9,8 +9,6 @@ _2020-09-30_
 - proxychains + burp chained
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
