@@ -1,6 +1,6 @@
 # stego lsb
 
-_2020-11-19_
+_2020-11-20_
 
 ## setup
 - mitm6 paired with ntlmrelayx
