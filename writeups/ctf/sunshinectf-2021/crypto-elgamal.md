@@ -1,14 +1,15 @@
 # crypto elgamal
 
-_2020-11-25_
+_2020-11-28_
 
 ## setup
-- responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- try esc4 template misconfig
+- ask IT about legacy OU cleanup
