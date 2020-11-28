@@ -1,6 +1,6 @@
 # forensics memory
 
-_2020-08-05_
+_2020-11-28_
 
 ## setup
 - new vpnsplit setup for the lab
