@@ -1,15 +1,18 @@
 # forensics memory
 
-_2020-07-06_
+_2020-11-30_
 
 ## setup
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- ask IT about legacy OU cleanup
+- write detection rule for the fp case
+- map remaining acls in bloodhound
+- sweep ipv6 for live hosts
