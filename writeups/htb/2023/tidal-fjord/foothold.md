@@ -1,11 +1,10 @@
 # foothold
 
-_2020-09-07_
+_2020-12-18_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
 - cert template allows enrollment for DA group
@@ -14,4 +13,3 @@ _2020-09-07_
 
 ## next
 - ask IT about legacy OU cleanup
-- try esc4 template misconfig
