@@ -1,6 +1,6 @@
 # pwn warmup
 
-_2020-06-05_
+_2020-12-27_
 
 ## setup
 - kali vm snapshot rolled back
