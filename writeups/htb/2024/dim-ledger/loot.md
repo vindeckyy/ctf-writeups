@@ -1,6 +1,6 @@
 # loot
 
-_2020-08-03_
+_2020-12-31_
 
 ## setup
 - responder listening on the test vlan
