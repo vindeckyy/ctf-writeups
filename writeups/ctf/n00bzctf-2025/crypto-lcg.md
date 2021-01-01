@@ -1,6 +1,6 @@
 # crypto lcg
 
-_2020-01-10_
+_2020-12-31_
 
 ## setup
 - kali vm snapshot rolled back
