@@ -1,14 +1,12 @@
 # re go
 
-_2020-06-06_
+_2021-01-02_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
