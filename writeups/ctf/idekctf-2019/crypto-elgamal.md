@@ -1,15 +1,18 @@
 # crypto elgamal
 
-_2020-12-28_
+_2021-01-07_
 
 ## setup
-- wsl network tweaks applied
 - new vpnsplit setup for the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- gpp leftovers on legacy OU
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
+- write detection rule for the fp case
 - map remaining acls in bloodhound
