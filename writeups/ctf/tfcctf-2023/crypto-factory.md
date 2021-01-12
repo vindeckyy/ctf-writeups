@@ -1,18 +1,16 @@
 # crypto factory
 
-_2020-12-14_
+_2021-01-12_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- gpp leftovers on legacy OU
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- follow up on relay chain
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
+- write detection rule for the fp case
