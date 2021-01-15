@@ -1,16 +1,14 @@
 # privesc
 
-_2020-12-31_
+_2021-01-15_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- retest after patch window
