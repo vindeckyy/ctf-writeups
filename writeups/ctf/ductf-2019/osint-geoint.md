@@ -1,6 +1,6 @@
 # osint geoint
 
-_2020-07-09_
+_2021-01-19_
 
 ## setup
 - target: internal lab 10.0.20.0/24
