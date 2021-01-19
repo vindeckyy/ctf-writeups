@@ -1,16 +1,16 @@
 # pwn heap fun
 
-_2020-11-20_
+_2021-01-18_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
-- responder listening on the test vlan
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
 ## next
 - write detection rule for the fp case
-- map remaining acls in bloodhound
