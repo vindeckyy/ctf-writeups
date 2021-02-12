@@ -1,12 +1,14 @@
 # crypto rsa 101
 
-_2020-12-08_
+_2021-02-12_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
