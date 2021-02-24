@@ -1,6 +1,6 @@
 # privesc
 
-_2019-09-28_
+_2021-02-24_
 
 ## setup
 - target: internal lab 10.0.20.0/24
@@ -9,8 +9,6 @@ _2019-09-28_
 - new vpnsplit setup for the lab
 
 ## findings
-- snmp community 'public' read-all
-- rdp nla disabled on legacy box
 - dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
