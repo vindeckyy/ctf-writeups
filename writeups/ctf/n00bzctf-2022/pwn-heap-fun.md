@@ -1,6 +1,6 @@
 # pwn heap fun
 
-_2020-10-14_
+_2021-03-02_
 
 ## setup
 - responder listening on the test vlan
@@ -8,8 +8,6 @@ _2020-10-14_
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
