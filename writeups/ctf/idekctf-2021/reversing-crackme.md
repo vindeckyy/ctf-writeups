@@ -1,12 +1,10 @@
 # reversing crackme
 
-_2021-02-04_
+_2021-03-19_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - wsus unsigned allowed
@@ -17,5 +15,3 @@ _2021-02-04_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
-- map remaining acls in bloodhound
