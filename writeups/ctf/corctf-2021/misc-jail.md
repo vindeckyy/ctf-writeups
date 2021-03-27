@@ -1,11 +1,10 @@
 # misc jail
 
-_2021-02-25_
+_2021-03-27_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -16,4 +15,3 @@ _2021-02-25_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
