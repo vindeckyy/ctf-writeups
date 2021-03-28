@@ -1,10 +1,11 @@
 # crypto lcg
 
-_2020-12-04_
+_2021-03-28_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
 - docker socket mounted in ci runner
@@ -14,3 +15,4 @@ _2020-12-04_
 
 ## next
 - sweep ipv6 for live hosts
+- test coercion from workstation context
