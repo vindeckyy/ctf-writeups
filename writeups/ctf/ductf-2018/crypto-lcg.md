@@ -1,6 +1,6 @@
 # crypto lcg
 
-_2021-01-14_
+_2021-04-04_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,8 +8,6 @@ _2021-01-14_
 - responder listening on the test vlan
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
