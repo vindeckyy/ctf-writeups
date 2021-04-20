@@ -1,6 +1,6 @@
 # forensics memory
 
-_2021-03-29_
+_2021-04-20_
 
 ## setup
 - mitm6 paired with ntlmrelayx
