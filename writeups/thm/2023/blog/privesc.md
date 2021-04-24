@@ -1,12 +1,11 @@
 # privesc
 
-_2021-03-23_
+_2021-04-24_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - winrm open on workstations
@@ -16,4 +15,3 @@ _2021-03-23_
 ## next
 - pull sccm http creds if time allows
 - write detection rule for the fp case
-- map remaining acls in bloodhound
