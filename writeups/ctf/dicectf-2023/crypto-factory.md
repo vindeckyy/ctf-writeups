@@ -1,10 +1,11 @@
 # crypto factory
 
-_2021-04-04_
+_2021-05-04_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - winrm open on workstations
@@ -13,3 +14,4 @@ _2021-04-04_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
