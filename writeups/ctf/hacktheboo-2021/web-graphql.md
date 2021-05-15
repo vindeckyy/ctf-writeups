@@ -1,6 +1,6 @@
 # web graphql
 
-_2021-01-03_
+_2021-05-15_
 
 ## setup
 - mitm6 paired with ntlmrelayx
