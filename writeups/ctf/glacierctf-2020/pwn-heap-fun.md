@@ -1,6 +1,6 @@
 # pwn heap fun
 
-_2021-03-19_
+_2021-05-23_
 
 ## setup
 - nmap scripts updated from master
@@ -9,6 +9,8 @@ _2021-03-19_
 - kali vm snapshot rolled back
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
