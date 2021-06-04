@@ -1,10 +1,11 @@
 # notes
 
-_2021-01-23_
+_2021-06-04_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -12,3 +13,4 @@ _2021-01-23_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
