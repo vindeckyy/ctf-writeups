@@ -1,6 +1,6 @@
 # web baby
 
-_2021-06-08_
+_2021-06-22_
 
 ## setup
 - target: internal lab 10.0.20.0/24
@@ -8,6 +8,8 @@ _2021-06-08_
 - wsl network tweaks applied
 
 ## findings
+- snmp community 'public' read-all
+- rdp nla disabled on legacy box
 - dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
