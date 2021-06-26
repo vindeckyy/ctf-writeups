@@ -1,12 +1,10 @@
 # pwn ret2libc
 
-_2021-01-15_
+_2021-06-26_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
 
 ## findings
 - kerberoastable: svc_backup, svc_sql
@@ -14,5 +12,3 @@ _2021-01-15_
 
 ## next
 - sweep ipv6 for live hosts
-- test coercion from workstation context
-- retest after patch window
