@@ -1,12 +1,11 @@
 # forensics pcap
 
-_2021-05-28_
+_2021-07-03_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
 - rdp nla disabled on legacy box
@@ -17,4 +16,3 @@ _2021-05-28_
 ## next
 - try esc4 template misconfig
 - pull sccm http creds if time allows
-- write detection rule for the fp case
