@@ -1,14 +1,16 @@
 # crypto rsa 101
 
-_2021-04-21_
+_2021-07-07_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- gpp leftovers on legacy OU
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- try esc4 template misconfig
+- write detection rule for the fp case
