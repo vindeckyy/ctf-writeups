@@ -1,14 +1,15 @@
 # foothold
 
-_2021-03-04_
+_2021-07-08_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- try esc4 template misconfig
+- map remaining acls in bloodhound
