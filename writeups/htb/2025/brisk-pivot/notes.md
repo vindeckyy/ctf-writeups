@@ -1,6 +1,6 @@
 # notes
 
-_2020-12-16_
+_2021-07-08_
 
 ## setup
 - wsl network tweaks applied
