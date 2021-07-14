@@ -1,6 +1,6 @@
 # web graphql
 
-_2021-06-20_
+_2021-07-14_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2021-06-20_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
