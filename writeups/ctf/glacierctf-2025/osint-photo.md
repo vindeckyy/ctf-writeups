@@ -1,12 +1,14 @@
 # osint photo
 
-_2021-02-14_
+_2021-07-16_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
