@@ -1,14 +1,14 @@
 # privesc
 
-_2021-03-11_
+_2021-08-02_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- follow up on relay chain
+- try esc4 template misconfig
