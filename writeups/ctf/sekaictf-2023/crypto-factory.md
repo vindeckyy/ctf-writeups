@@ -1,16 +1,19 @@
 # crypto factory
 
-_2021-03-04_
+_2021-08-18_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- wsus unsigned allowed
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- follow up on relay chain
-- ask IT about legacy OU cleanup
+- pull sccm http creds if time allows
+- write detection rule for the fp case
