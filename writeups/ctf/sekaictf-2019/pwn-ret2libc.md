@@ -1,6 +1,6 @@
 # pwn ret2libc
 
-_2021-08-15_
+_2021-08-18_
 
 ## setup
 - responder listening on the test vlan
@@ -9,6 +9,8 @@ _2021-08-15_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
