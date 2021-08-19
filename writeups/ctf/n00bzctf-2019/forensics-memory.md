@@ -1,11 +1,10 @@
 # forensics memory
 
-_2021-01-12_
+_2021-08-19_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -13,4 +12,3 @@ _2021-01-12_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
