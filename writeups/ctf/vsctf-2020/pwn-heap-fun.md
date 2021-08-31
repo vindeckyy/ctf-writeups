@@ -1,6 +1,6 @@
 # pwn heap fun
 
-_2021-06-22_
+_2021-08-31_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,6 +8,8 @@ _2021-06-22_
 - responder listening on the test vlan
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
