@@ -1,6 +1,6 @@
 # reversing crackme
 
-_2021-06-30_
+_2021-09-12_
 
 ## setup
 - kali vm snapshot rolled back
@@ -9,8 +9,6 @@ _2021-06-30_
 - target: internal lab 10.0.20.0/24
 
 ## findings
-- jwt accepts none alg
-- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
