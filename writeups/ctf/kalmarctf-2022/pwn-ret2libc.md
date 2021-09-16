@@ -1,16 +1,19 @@
 # pwn ret2libc
 
-_2021-07-11_
+_2021-09-16_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- nmap scripts updated from master
+- responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
 ## next
-- retest after patch window
+- pull sccm http creds if time allows
+- write detection rule for the fp case
+- map remaining acls in bloodhound
