@@ -1,6 +1,6 @@
 # osint photo
 
-_2021-07-22_
+_2021-09-19_
 
 ## setup
 - kali vm snapshot rolled back
