@@ -1,14 +1,16 @@
 # root
 
-_2021-07-10_
+_2021-09-25_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- try esc4 template misconfig
+- retest after patch window
