@@ -1,16 +1,17 @@
 # crypto rsa 101
 
-_2021-08-31_
+_2021-10-23_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- ldap anon bind still works
+- gpp leftovers on legacy OU
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- try esc4 template misconfig
+- check for unconstrained delegation hosts
