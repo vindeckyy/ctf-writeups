@@ -1,14 +1,12 @@
 # re rust
 
-_2021-05-06_
+_2021-10-24_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
