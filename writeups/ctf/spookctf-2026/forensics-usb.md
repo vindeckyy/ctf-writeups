@@ -1,6 +1,6 @@
 # forensics usb
 
-_2021-07-27_
+_2021-10-29_
 
 ## setup
 - proxychains + burp chained
