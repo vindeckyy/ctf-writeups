@@ -1,17 +1,14 @@
 # stego lsb
 
-_2021-09-12_
+_2021-11-07_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- as-rep roastable: 2 accounts
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- map remaining acls in bloodhound
+- retest after patch window
