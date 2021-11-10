@@ -1,10 +1,11 @@
 # forensics usb
 
-_2021-09-11_
+_2021-11-10_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -12,3 +13,4 @@ _2021-09-11_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
