@@ -1,16 +1,14 @@
 # re go
 
-_2021-03-21_
+_2021-11-09_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- try esc4 template misconfig
+- sweep ipv6 for live hosts
