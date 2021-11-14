@@ -1,17 +1,15 @@
 # re go
 
-_2021-03-09_
+_2021-11-13_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- pull sccm http creds if time allows
+- ask IT about legacy OU cleanup
