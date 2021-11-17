@@ -1,12 +1,10 @@
 # web ssti
 
-_2021-05-18_
+_2021-11-16_
 
 ## setup
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
 
 ## findings
 - smb signing disabled on 3 hosts
@@ -14,5 +12,3 @@ _2021-05-18_
 
 ## next
 - follow up on relay chain
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
