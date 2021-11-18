@@ -1,12 +1,11 @@
 # pwn heap fun
 
-_2021-10-10_
+_2021-11-18_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - wsus unsigned allowed
@@ -18,4 +17,3 @@ _2021-10-10_
 ## next
 - pull sccm http creds if time allows
 - write detection rule for the fp case
-- map remaining acls in bloodhound
