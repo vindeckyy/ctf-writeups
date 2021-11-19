@@ -1,10 +1,11 @@
 # misc sandbox
 
-_2020-11-08_
+_2021-11-19_
 
 ## setup
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
 - jwt accepts none alg
@@ -14,3 +15,4 @@ _2020-11-08_
 
 ## next
 - follow up on relay chain
+- ask IT about legacy OU cleanup
