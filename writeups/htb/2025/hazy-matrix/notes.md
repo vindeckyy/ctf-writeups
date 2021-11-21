@@ -1,15 +1,16 @@
 # notes
 
-_2021-02-07_
+_2021-11-21_
 
 ## setup
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- check for unconstrained delegation hosts
+- try esc4 template misconfig
