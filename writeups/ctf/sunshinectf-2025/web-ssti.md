@@ -1,12 +1,11 @@
 # web ssti
 
-_2021-11-21_
+_2021-12-03_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
-- responder listening on the test vlan
 
 ## findings
 - nfs export no_root_squash
@@ -16,4 +15,3 @@ _2021-11-21_
 ## next
 - map remaining acls in bloodhound
 - sweep ipv6 for live hosts
-- test coercion from workstation context
