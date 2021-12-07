@@ -1,6 +1,6 @@
 # forensics memory
 
-_2021-10-07_
+_2021-12-06_
 
 ## setup
 - wsl network tweaks applied
