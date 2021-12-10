@@ -1,10 +1,11 @@
 # web baby
 
-_2021-11-30_
+_2021-12-09_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
 - docker socket mounted in ci runner
@@ -14,3 +15,4 @@ _2021-11-30_
 
 ## next
 - sweep ipv6 for live hosts
+- test coercion from workstation context
