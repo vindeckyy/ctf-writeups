@@ -1,10 +1,11 @@
 # misc jail
 
-_2021-02-15_
+_2022-01-04_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
 - web01 leaks .env via backup dir
@@ -15,3 +16,4 @@ _2021-02-15_
 
 ## next
 - ask IT about legacy OU cleanup
+- try esc4 template misconfig
