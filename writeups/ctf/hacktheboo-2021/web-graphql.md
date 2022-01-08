@@ -1,6 +1,6 @@
 # web graphql
 
-_2021-11-27_
+_2022-01-08_
 
 ## setup
 - proxychains + burp chained
