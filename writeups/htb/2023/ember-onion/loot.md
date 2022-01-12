@@ -1,6 +1,6 @@
 # loot
 
-_2021-06-22_
+_2022-01-11_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,8 +8,6 @@ _2021-06-22_
 - responder listening on the test vlan
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
