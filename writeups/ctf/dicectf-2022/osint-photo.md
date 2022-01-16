@@ -1,11 +1,10 @@
 # osint photo
 
-_2021-09-20_
+_2022-01-15_
 
 ## setup
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
 
 ## findings
 - smb signing disabled on 3 hosts
@@ -13,4 +12,3 @@ _2021-09-20_
 
 ## next
 - follow up on relay chain
-- ask IT about legacy OU cleanup
