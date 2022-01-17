@@ -1,6 +1,6 @@
 # crypto lcg
 
-_2021-09-21_
+_2022-01-17_
 
 ## setup
 - nmap scripts updated from master
@@ -9,6 +9,8 @@ _2021-09-21_
 - kali vm snapshot rolled back
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
