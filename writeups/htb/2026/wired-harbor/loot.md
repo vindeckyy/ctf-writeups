@@ -1,6 +1,6 @@
 # loot
 
-_2021-07-23_
+_2022-02-05_
 
 ## setup
 - wsl network tweaks applied
