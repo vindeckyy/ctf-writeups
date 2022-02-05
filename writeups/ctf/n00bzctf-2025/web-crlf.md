@@ -1,6 +1,6 @@
 # web crlf
 
-_2021-11-19_
+_2022-02-05_
 
 ## setup
 - proxychains + burp chained
@@ -9,8 +9,6 @@ _2021-11-19_
 - fresh windows server 2019 box in the lab
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
