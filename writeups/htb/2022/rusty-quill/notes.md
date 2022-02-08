@@ -1,6 +1,6 @@
 # notes
 
-_2021-06-21_
+_2022-02-08_
 
 ## setup
 - proxychains + burp chained
