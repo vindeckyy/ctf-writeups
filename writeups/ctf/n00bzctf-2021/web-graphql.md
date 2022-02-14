@@ -1,10 +1,11 @@
 # web graphql
 
-_2021-02-08_
+_2022-02-14_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -15,3 +16,4 @@ _2021-02-08_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
