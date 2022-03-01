@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2021-10-25_
+_2022-03-01_
 
 ## setup
 - wsl network tweaks applied
