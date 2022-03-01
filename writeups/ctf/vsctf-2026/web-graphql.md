@@ -1,6 +1,6 @@
 # web graphql
 
-_2022-02-11_
+_2022-03-01_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
