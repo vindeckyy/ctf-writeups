@@ -1,11 +1,12 @@
 # pwn heap fun
 
-_2021-09-14_
+_2022-03-20_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
 - nfs export no_root_squash
@@ -15,3 +16,4 @@ _2021-09-14_
 ## next
 - map remaining acls in bloodhound
 - sweep ipv6 for live hosts
+- test coercion from workstation context
