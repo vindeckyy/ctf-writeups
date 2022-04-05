@@ -1,16 +1,14 @@
 # forensics pcap
 
-_2021-11-22_
+_2022-04-05_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- retest after patch window
+- try esc4 template misconfig
