@@ -1,6 +1,6 @@
 # osint geoint
 
-_2021-10-21_
+_2022-04-19_
 
 ## setup
 - kali vm snapshot rolled back
@@ -8,6 +8,8 @@ _2021-10-21_
 - fresh windows server 2019 box in the lab
 
 ## findings
+- jwt accepts none alg
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
