@@ -1,6 +1,6 @@
 # forensics memory
 
-_2022-02-04_
+_2022-05-02_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2022-02-04_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
