@@ -1,6 +1,6 @@
 # osint geoint
 
-_2022-03-18_
+_2022-05-24_
 
 ## setup
 - responder listening on the test vlan
@@ -9,8 +9,6 @@ _2022-03-18_
 - mitm6 paired with ntlmrelayx
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
