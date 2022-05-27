@@ -1,15 +1,15 @@
 # recon
 
-_2022-02-01_
+_2022-05-27_
 
 ## setup
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- check for unconstrained delegation hosts
+- pull sccm http creds if time allows
