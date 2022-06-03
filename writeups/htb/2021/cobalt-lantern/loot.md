@@ -1,10 +1,11 @@
 # loot
 
-_2022-02-01_
+_2022-06-03_
 
 ## setup
 - target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
 - dns rebinding blocked at resolver
@@ -13,3 +14,4 @@ _2022-02-01_
 
 ## next
 - test coercion from workstation context
+- retest after patch window
