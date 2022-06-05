@@ -1,17 +1,14 @@
 # notes
 
-_2022-02-13_
+_2022-06-05_
 
 ## setup
+- responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- ask IT about legacy OU cleanup
 - try esc4 template misconfig
