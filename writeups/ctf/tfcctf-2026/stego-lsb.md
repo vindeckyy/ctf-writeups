@@ -1,11 +1,10 @@
 # stego lsb
 
-_2021-12-21_
+_2022-06-08_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -15,4 +14,3 @@ _2021-12-21_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
