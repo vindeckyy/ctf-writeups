@@ -1,6 +1,6 @@
 # privesc
 
-_2021-11-04_
+_2022-06-10_
 
 ## setup
 - wsl network tweaks applied
