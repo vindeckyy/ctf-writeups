@@ -1,6 +1,6 @@
 # privesc
 
-_2022-05-17_
+_2022-06-21_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
