@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2021-11-04_
+_2022-06-21_
 
 ## setup
 - proxychains + burp chained
