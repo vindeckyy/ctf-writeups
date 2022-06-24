@@ -1,6 +1,6 @@
 # privesc
 
-_2022-06-03_
+_2022-06-24_
 
 ## setup
 - target: internal lab 10.0.20.0/24
