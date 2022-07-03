@@ -1,6 +1,6 @@
 # misc jail
 
-_2022-06-12_
+_2022-07-03_
 
 ## setup
 - mitm6 paired with ntlmrelayx
@@ -9,6 +9,8 @@ _2022-06-12_
 - f_proxy moved to 127.0.0.1:8080
 
 ## findings
+- ldap anon bind still works
+- gpp leftovers on legacy OU
 - host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
