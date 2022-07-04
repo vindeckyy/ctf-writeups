@@ -1,6 +1,6 @@
 # pwn warmup
 
-_2021-10-20_
+_2022-07-03_
 
 ## setup
 - mitm6 paired with ntlmrelayx
