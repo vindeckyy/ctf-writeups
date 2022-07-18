@@ -1,17 +1,14 @@
 # pwn ret2libc
 
-_2022-03-18_
+_2022-07-18_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
-- proxychains + burp chained
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
 ## next
-- pull sccm http creds if time allows
-- write detection rule for the fp case
+- retest after patch window
