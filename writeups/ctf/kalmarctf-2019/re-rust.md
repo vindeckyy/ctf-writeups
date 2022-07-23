@@ -1,6 +1,6 @@
 # re rust
 
-_2022-07-03_
+_2022-07-23_
 
 ## setup
 - wsl network tweaks applied
