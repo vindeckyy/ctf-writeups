@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2022-06-28_
+_2022-07-28_
 
 ## setup
 - nmap scripts updated from master
