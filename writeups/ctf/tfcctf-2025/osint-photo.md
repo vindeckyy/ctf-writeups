@@ -1,6 +1,6 @@
 # osint photo
 
-_2022-07-23_
+_2022-07-28_
 
 ## setup
 - new vpnsplit setup for the lab
