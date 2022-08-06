@@ -1,10 +1,12 @@
 # osint geoint
 
-_2022-06-08_
+_2022-08-06_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - gpp leftovers on legacy OU
@@ -14,3 +16,5 @@ _2022-06-08_
 
 ## next
 - write detection rule for the fp case
+- map remaining acls in bloodhound
+- sweep ipv6 for live hosts
