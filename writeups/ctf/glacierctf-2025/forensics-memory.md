@@ -1,12 +1,14 @@
 # forensics memory
 
-_2022-02-15_
+_2022-08-15_
 
 ## setup
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- jwt accepts none alg
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
