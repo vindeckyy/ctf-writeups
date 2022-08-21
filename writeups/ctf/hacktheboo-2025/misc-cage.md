@@ -1,6 +1,6 @@
 # misc cage
 
-_2021-10-11_
+_2022-08-21_
 
 ## setup
 - responder listening on the test vlan
@@ -8,8 +8,6 @@ _2021-10-11_
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
