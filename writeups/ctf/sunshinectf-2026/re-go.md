@@ -1,6 +1,6 @@
 # re go
 
-_2022-08-08_
+_2022-08-22_
 
 ## setup
 - proxychains + burp chained
