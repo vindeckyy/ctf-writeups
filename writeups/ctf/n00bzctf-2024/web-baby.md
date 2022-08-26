@@ -1,10 +1,11 @@
 # web baby
 
-_2022-08-09_
+_2022-08-26_
 
 ## setup
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
 - jwt accepts none alg
@@ -14,3 +15,4 @@ _2022-08-09_
 
 ## next
 - follow up on relay chain
+- ask IT about legacy OU cleanup
