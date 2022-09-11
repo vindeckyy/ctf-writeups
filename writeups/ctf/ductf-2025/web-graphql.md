@@ -1,10 +1,11 @@
 # web graphql
 
-_2022-07-23_
+_2022-09-11_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - winrm open on workstations
@@ -13,3 +14,4 @@ _2022-07-23_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
