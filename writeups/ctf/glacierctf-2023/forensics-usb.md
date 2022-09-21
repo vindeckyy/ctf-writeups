@@ -1,6 +1,6 @@
 # forensics usb
 
-_2022-05-17_
+_2022-09-21_
 
 ## setup
 - target: internal lab 10.0.20.0/24
