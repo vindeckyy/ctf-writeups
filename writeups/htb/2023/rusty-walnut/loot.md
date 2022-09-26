@@ -1,6 +1,6 @@
 # loot
 
-_2022-05-20_
+_2022-09-26_
 
 ## setup
 - nmap scripts updated from master
