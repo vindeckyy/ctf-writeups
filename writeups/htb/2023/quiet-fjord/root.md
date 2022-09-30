@@ -1,6 +1,6 @@
 # root
 
-_2022-07-17_
+_2022-09-30_
 
 ## setup
 - kali vm snapshot rolled back
@@ -9,8 +9,6 @@ _2022-07-17_
 - target: internal lab 10.0.20.0/24
 
 ## findings
-- jwt accepts none alg
-- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
