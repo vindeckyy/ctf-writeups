@@ -1,6 +1,6 @@
 # pwn heap fun
 
-_2022-01-23_
+_2022-10-06_
 
 ## setup
 - proxychains + burp chained
