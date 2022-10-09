@@ -1,16 +1,14 @@
 # pwn warmup
 
-_2022-04-17_
+_2022-10-09_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- follow up on relay chain
+- try esc4 template misconfig
