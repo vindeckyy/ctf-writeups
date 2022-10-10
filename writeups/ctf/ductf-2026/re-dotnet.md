@@ -1,6 +1,6 @@
 # re dotnet
 
-_2022-05-13_
+_2022-10-10_
 
 ## setup
 - new vpnsplit setup for the lab
