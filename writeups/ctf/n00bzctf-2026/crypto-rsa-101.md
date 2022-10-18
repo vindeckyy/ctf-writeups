@@ -1,14 +1,15 @@
 # crypto rsa 101
 
-_2022-07-11_
+_2022-10-18_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
 ## next
-- follow up on relay chain
+- map remaining acls in bloodhound
