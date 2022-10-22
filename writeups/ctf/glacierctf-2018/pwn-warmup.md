@@ -1,11 +1,10 @@
 # pwn warmup
 
-_2021-09-07_
+_2022-10-21_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -15,4 +14,3 @@ _2021-09-07_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
