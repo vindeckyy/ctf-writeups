@@ -1,14 +1,12 @@
 # crypto factory
 
-_2022-07-25_
+_2022-10-22_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
