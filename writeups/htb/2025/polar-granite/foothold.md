@@ -1,10 +1,11 @@
 # foothold
 
-_2022-08-30_
+_2022-10-27_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
 - web01 leaks .env via backup dir
@@ -15,3 +16,4 @@ _2022-08-30_
 
 ## next
 - ask IT about legacy OU cleanup
+- try esc4 template misconfig
