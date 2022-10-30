@@ -1,6 +1,6 @@
 # recon
 
-_2022-01-25_
+_2022-10-29_
 
 ## setup
 - mitm6 paired with ntlmrelayx
@@ -8,6 +8,8 @@ _2022-01-25_
 - target: internal lab 10.0.20.0/24
 
 ## findings
+- ldap anon bind still works
+- gpp leftovers on legacy OU
 - host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
