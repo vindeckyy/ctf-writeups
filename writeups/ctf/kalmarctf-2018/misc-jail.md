@@ -1,6 +1,6 @@
 # misc jail
 
-_2022-09-02_
+_2022-11-01_
 
 ## setup
 - kali vm snapshot rolled back
@@ -8,6 +8,8 @@ _2022-09-02_
 - fresh windows server 2019 box in the lab
 
 ## findings
+- jwt accepts none alg
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
