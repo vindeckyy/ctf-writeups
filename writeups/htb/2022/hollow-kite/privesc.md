@@ -1,14 +1,14 @@
 # privesc
 
-_2022-07-21_
+_2022-11-02_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- try esc4 template misconfig
+- write detection rule for the fp case
