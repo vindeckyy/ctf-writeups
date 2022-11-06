@@ -1,10 +1,11 @@
 # web ssti
 
-_2022-09-18_
+_2022-11-06_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
 - nfs export no_root_squash
@@ -13,3 +14,4 @@ _2022-09-18_
 
 ## next
 - map remaining acls in bloodhound
+- sweep ipv6 for live hosts
