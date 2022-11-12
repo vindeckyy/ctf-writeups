@@ -1,6 +1,6 @@
 # privesc
 
-_2022-11-04_
+_2022-11-12_
 
 ## setup
 - proxychains + burp chained
@@ -8,8 +8,6 @@ _2022-11-04_
 - mitm6 paired with ntlmrelayx
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
