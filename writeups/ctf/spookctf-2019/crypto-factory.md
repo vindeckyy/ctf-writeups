@@ -1,6 +1,6 @@
 # crypto factory
 
-_2022-05-23_
+_2022-11-22_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -9,6 +9,8 @@ _2022-05-23_
 - proxychains + burp chained
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
