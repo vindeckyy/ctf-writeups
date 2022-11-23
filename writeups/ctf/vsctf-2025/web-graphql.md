@@ -1,12 +1,14 @@
 # web graphql
 
-_2022-10-08_
+_2022-11-23_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
