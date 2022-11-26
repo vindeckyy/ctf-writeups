@@ -1,14 +1,12 @@
 # osint photo
 
-_2022-07-14_
+_2022-11-26_
 
 ## setup
 - mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
 
 ## findings
-- ldap anon bind still works
-- gpp leftovers on legacy OU
 - host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
