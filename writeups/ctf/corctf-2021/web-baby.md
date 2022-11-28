@@ -1,11 +1,10 @@
 # web baby
 
-_2021-07-24_
+_2022-11-28_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -16,4 +15,3 @@ _2021-07-24_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
