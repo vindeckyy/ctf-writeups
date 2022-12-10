@@ -1,6 +1,6 @@
 # recon
 
-_2022-05-03_
+_2022-12-09_
 
 ## setup
 - proxychains + burp chained
