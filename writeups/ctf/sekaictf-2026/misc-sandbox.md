@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2022-08-27_
+_2022-12-10_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
