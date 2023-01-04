@@ -1,11 +1,10 @@
 # stego lsb
 
-_2022-10-16_
+_2023-01-04_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -16,4 +15,3 @@ _2022-10-16_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
