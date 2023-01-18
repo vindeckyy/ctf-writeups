@@ -1,18 +1,18 @@
 # privesc
 
-_2022-12-30_
+_2023-01-18_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- write detection rule for the fp case
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
+- try esc4 template misconfig
+- pull sccm http creds if time allows
