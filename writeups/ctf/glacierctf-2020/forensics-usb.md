@@ -1,6 +1,6 @@
 # forensics usb
 
-_2022-07-18_
+_2023-01-19_
 
 ## setup
 - kali vm snapshot rolled back
