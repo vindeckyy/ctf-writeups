@@ -1,12 +1,10 @@
 # crypto lcg
 
-_2023-01-27_
+_2023-01-28_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - wsus unsigned allowed
@@ -17,5 +15,3 @@ _2023-01-27_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
-- map remaining acls in bloodhound
