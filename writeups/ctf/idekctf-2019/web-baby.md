@@ -1,14 +1,12 @@
 # web baby
 
-_2022-12-22_
+_2023-02-03_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
