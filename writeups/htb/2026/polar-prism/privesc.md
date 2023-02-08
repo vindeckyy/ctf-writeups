@@ -1,18 +1,17 @@
 # privesc
 
-_2021-09-03_
+_2023-02-07_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
-- responder listening on the test vlan
-- proxychains + burp chained
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
 ## next
-- write detection rule for the fp case
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
+- check for unconstrained delegation hosts
+- follow up on relay chain
