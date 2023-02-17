@@ -1,11 +1,10 @@
 # crypto elgamal
 
-_2022-11-16_
+_2023-02-17_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -13,4 +12,3 @@ _2022-11-16_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
