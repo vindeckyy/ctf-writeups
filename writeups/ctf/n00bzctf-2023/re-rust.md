@@ -1,10 +1,11 @@
 # re rust
 
-_2023-01-12_
+_2023-02-23_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -14,3 +15,4 @@ _2023-01-12_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
