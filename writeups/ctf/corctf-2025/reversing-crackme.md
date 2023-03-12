@@ -1,6 +1,6 @@
 # reversing crackme
 
-_2022-11-11_
+_2023-03-12_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -9,8 +9,6 @@ _2022-11-11_
 - proxychains + burp chained
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
