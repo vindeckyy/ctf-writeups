@@ -1,6 +1,6 @@
 # crypto elgamal
 
-_2021-08-02_
+_2023-03-15_
 
 ## setup
 - proxychains + burp chained
@@ -9,6 +9,8 @@ _2021-08-02_
 - fresh windows server 2019 box in the lab
 
 ## findings
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
