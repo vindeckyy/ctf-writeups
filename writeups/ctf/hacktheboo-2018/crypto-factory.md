@@ -1,12 +1,14 @@
 # crypto factory
 
-_2022-10-24_
+_2023-03-25_
 
 ## setup
 - fresh windows server 2019 box in the lab
 - target: internal lab 10.0.20.0/24
 
 ## findings
+- printers reachable from guest vlan
+- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
