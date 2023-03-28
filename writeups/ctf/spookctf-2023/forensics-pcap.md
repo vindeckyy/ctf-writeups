@@ -1,6 +1,6 @@
 # forensics pcap
 
-_2022-03-31_
+_2023-03-28_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,8 +8,6 @@ _2022-03-31_
 - responder listening on the test vlan
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
