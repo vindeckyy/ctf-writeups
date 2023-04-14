@@ -1,6 +1,6 @@
 # crypto lcg
 
-_2022-09-15_
+_2023-04-14_
 
 ## setup
 - responder listening on the test vlan
@@ -8,8 +8,6 @@ _2022-09-15_
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
