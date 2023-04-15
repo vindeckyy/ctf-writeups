@@ -1,14 +1,16 @@
 # pwn warmup
 
-_2023-03-11_
+_2023-04-15_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- jwt accepts none alg
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- retest after patch window
+- follow up on relay chain
