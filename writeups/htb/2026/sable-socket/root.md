@@ -1,6 +1,6 @@
 # root
 
-_2023-03-31_
+_2023-04-15_
 
 ## setup
 - responder listening on the test vlan
@@ -9,6 +9,8 @@ _2023-03-31_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
