@@ -1,15 +1,14 @@
 # web baby
 
-_2023-01-18_
+_2023-04-19_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- map remaining acls in bloodhound
+- retest after patch window
