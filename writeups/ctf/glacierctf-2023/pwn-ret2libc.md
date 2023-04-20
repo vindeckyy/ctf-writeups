@@ -1,14 +1,17 @@
 # pwn ret2libc
 
-_2022-12-05_
+_2023-04-20_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- write detection rule for the fp case
+- ask IT about legacy OU cleanup
+- try esc4 template misconfig
