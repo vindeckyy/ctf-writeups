@@ -1,6 +1,6 @@
 # forensics memory
 
-_2022-12-08_
+_2023-04-28_
 
 ## setup
 - kali vm snapshot rolled back
