@@ -1,16 +1,14 @@
 # web graphql
 
-_2023-03-21_
+_2023-05-08_
 
 ## setup
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
 - new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- sweep ipv6 for live hosts
-- test coercion from workstation context
+- write detection rule for the fp case
