@@ -1,10 +1,11 @@
 # loot
 
-_2023-04-11_
+_2023-05-08_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -12,3 +13,4 @@ _2023-04-11_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
