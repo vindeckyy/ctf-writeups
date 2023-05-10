@@ -1,11 +1,10 @@
 # foothold
 
-_2022-09-03_
+_2023-05-10_
 
 ## setup
 - target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
 
 ## findings
 - snmp community 'public' read-all
@@ -16,4 +15,3 @@ _2022-09-03_
 
 ## next
 - test coercion from workstation context
-- retest after patch window
