@@ -1,11 +1,10 @@
 # foothold
 
-_2022-11-12_
+_2023-05-12_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
-- new vpnsplit setup for the lab
 
 ## findings
 - docker socket mounted in ci runner
@@ -15,4 +14,3 @@ _2022-11-12_
 
 ## next
 - sweep ipv6 for live hosts
-- test coercion from workstation context
