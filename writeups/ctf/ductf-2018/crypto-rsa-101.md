@@ -1,16 +1,17 @@
 # crypto rsa 101
 
-_2023-03-28_
+_2023-05-12_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
-- responder listening on the test vlan
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
 ## next
-- write detection rule for the fp case
-- map remaining acls in bloodhound
+- check for unconstrained delegation hosts
+- follow up on relay chain
