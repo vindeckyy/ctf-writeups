@@ -1,6 +1,6 @@
 # web crlf
 
-_2023-04-25_
+_2023-05-17_
 
 ## setup
 - fresh windows server 2019 box in the lab
@@ -9,8 +9,6 @@ _2023-04-25_
 - wsl network tweaks applied
 
 ## findings
-- printers reachable from guest vlan
-- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
