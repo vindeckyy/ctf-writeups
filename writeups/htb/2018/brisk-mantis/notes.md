@@ -1,17 +1,15 @@
 # notes
 
-_2022-10-30_
+_2023-05-19_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- ask IT about legacy OU cleanup
+- pull sccm http creds if time allows
