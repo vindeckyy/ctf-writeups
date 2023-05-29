@@ -1,6 +1,6 @@
 # forensics memory
 
-_2023-04-17_
+_2023-05-28_
 
 ## setup
 - target: internal lab 10.0.20.0/24
