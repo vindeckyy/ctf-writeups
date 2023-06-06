@@ -1,6 +1,6 @@
 # pwn warmup
 
-_2023-02-21_
+_2023-06-06_
 
 ## setup
 - new vpnsplit setup for the lab
