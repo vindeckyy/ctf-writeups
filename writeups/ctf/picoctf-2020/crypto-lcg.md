@@ -1,6 +1,6 @@
 # crypto lcg
 
-_2022-12-27_
+_2023-06-08_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
