@@ -1,6 +1,6 @@
 # privesc
 
-_2022-12-21_
+_2023-06-22_
 
 ## setup
 - responder listening on the test vlan
@@ -8,8 +8,6 @@ _2022-12-21_
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
