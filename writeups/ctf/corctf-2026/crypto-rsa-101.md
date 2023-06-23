@@ -1,12 +1,14 @@
 # crypto rsa 101
 
-_2023-02-22_
+_2023-06-23_
 
 ## setup
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- jwt accepts none alg
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
