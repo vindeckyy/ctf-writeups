@@ -1,14 +1,14 @@
 # reversing crackme
 
-_2023-06-17_
+_2023-06-29_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- try esc4 template misconfig
+- follow up on relay chain
