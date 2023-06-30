@@ -1,6 +1,6 @@
 # stego lsb
 
-_2023-03-24_
+_2023-06-30_
 
 ## setup
 - proxychains + burp chained
