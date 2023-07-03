@@ -1,6 +1,6 @@
 # privesc
 
-_2022-12-01_
+_2023-07-03_
 
 ## setup
 - new vpnsplit setup for the lab
