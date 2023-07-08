@@ -1,6 +1,6 @@
 # forensics memory
 
-_2023-06-03_
+_2023-07-07_
 
 ## setup
 - fresh windows server 2019 box in the lab
