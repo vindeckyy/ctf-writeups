@@ -1,14 +1,12 @@
 # re go
 
-_2022-04-28_
+_2023-07-09_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
