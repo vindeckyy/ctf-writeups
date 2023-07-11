@@ -1,10 +1,11 @@
 # foothold
 
-_2023-03-28_
+_2023-07-10_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
 - as-rep roastable: 2 accounts
@@ -15,3 +16,4 @@ _2023-03-28_
 
 ## next
 - map remaining acls in bloodhound
+- sweep ipv6 for live hosts
