@@ -1,21 +1,14 @@
 # notes
 
-_2023-02-26_
+_2023-07-26_
 
 ## setup
-- nmap scripts updated from master
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- pull sccm http creds if time allows
-- write detection rule for the fp case
-- map remaining acls in bloodhound
+- try esc4 template misconfig
