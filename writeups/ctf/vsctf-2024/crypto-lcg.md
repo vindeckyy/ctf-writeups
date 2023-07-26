@@ -1,15 +1,16 @@
 # crypto lcg
 
-_2022-08-27_
+_2023-07-26_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- ask IT about legacy OU cleanup
+- write detection rule for the fp case
+- map remaining acls in bloodhound
