@@ -1,6 +1,6 @@
 # forensics pcap
 
-_2023-05-22_
+_2023-08-13_
 
 ## setup
 - responder listening on the test vlan
@@ -8,6 +8,8 @@ _2023-05-22_
 - kali vm snapshot rolled back
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
