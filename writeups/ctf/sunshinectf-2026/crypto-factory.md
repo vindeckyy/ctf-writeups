@@ -1,6 +1,6 @@
 # crypto factory
 
-_2022-12-25_
+_2023-08-22_
 
 ## setup
 - target: internal lab 10.0.20.0/24
