@@ -1,10 +1,11 @@
 # pwn warmup
 
-_2023-07-17_
+_2023-09-03_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - winrm open on workstations
@@ -13,3 +14,4 @@ _2023-07-17_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
