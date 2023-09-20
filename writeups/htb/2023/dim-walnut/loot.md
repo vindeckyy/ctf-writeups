@@ -1,6 +1,6 @@
 # loot
 
-_2023-08-27_
+_2023-09-20_
 
 ## setup
 - kali vm snapshot rolled back
