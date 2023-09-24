@@ -1,6 +1,6 @@
 # recon
 
-_2023-05-27_
+_2023-09-24_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2023-05-27_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
