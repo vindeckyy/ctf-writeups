@@ -1,16 +1,17 @@
 # crypto rsa 101
 
-_2023-08-11_
+_2023-10-02_
 
 ## setup
+- target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
-- new vpnsplit setup for the lab
 
 ## findings
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- sweep ipv6 for live hosts
 - test coercion from workstation context
+- retest after patch window
