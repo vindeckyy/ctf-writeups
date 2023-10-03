@@ -1,6 +1,6 @@
 # crypto factory
 
-_2023-07-23_
+_2023-10-03_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,6 +8,8 @@ _2023-07-23_
 - responder listening on the test vlan
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
