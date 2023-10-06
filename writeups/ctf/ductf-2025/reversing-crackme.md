@@ -1,6 +1,6 @@
 # reversing crackme
 
-_2023-10-02_
+_2023-10-06_
 
 ## setup
 - target: internal lab 10.0.20.0/24
@@ -9,6 +9,8 @@ _2023-10-02_
 - new vpnsplit setup for the lab
 
 ## findings
+- snmp community 'public' read-all
+- rdp nla disabled on legacy box
 - dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
