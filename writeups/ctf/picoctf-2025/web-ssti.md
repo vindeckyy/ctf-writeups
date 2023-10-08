@@ -1,16 +1,16 @@
 # web ssti
 
-_2023-04-04_
+_2023-10-08_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
-- responder listening on the test vlan
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
 ## next
 - write detection rule for the fp case
-- map remaining acls in bloodhound
