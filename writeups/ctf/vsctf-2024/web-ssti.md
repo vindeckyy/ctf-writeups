@@ -1,11 +1,10 @@
 # web ssti
 
-_2023-09-02_
+_2023-10-10_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
 - web01 leaks .env via backup dir
@@ -16,4 +15,3 @@ _2023-09-02_
 
 ## next
 - ask IT about legacy OU cleanup
-- try esc4 template misconfig
