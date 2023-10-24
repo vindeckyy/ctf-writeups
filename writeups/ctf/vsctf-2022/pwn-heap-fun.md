@@ -1,6 +1,6 @@
 # pwn heap fun
 
-_2023-08-15_
+_2023-10-24_
 
 ## setup
 - fresh windows server 2019 box in the lab
@@ -8,8 +8,6 @@ _2023-08-15_
 - f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- printers reachable from guest vlan
-- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
