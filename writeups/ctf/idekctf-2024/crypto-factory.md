@@ -1,10 +1,12 @@
 # crypto factory
 
-_2023-06-25_
+_2023-10-24_
 
 ## setup
 - target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
 - snmp community 'public' read-all
@@ -15,3 +17,5 @@ _2023-06-25_
 
 ## next
 - test coercion from workstation context
+- retest after patch window
+- check for unconstrained delegation hosts
