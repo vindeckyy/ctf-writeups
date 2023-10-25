@@ -1,12 +1,14 @@
 # forensics pcap
 
-_2023-10-19_
+_2023-10-25_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
