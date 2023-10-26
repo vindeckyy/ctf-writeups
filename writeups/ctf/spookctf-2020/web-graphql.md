@@ -1,11 +1,10 @@
 # web graphql
 
-_2023-05-26_
+_2023-10-26_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
-- new vpnsplit setup for the lab
 
 ## findings
 - docker socket mounted in ci runner
@@ -15,4 +14,3 @@ _2023-05-26_
 
 ## next
 - sweep ipv6 for live hosts
-- test coercion from workstation context
