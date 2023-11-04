@@ -1,14 +1,12 @@
 # crypto rsa 101
 
-_2023-10-13_
+_2023-11-04_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
