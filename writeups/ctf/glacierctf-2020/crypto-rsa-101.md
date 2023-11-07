@@ -1,10 +1,11 @@
 # crypto rsa 101
 
-_2022-11-24_
+_2023-11-07_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
 - web01 leaks .env via backup dir
@@ -15,3 +16,4 @@ _2022-11-24_
 
 ## next
 - ask IT about legacy OU cleanup
+- try esc4 template misconfig
