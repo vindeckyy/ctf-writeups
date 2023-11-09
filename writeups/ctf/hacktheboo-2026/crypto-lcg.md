@@ -1,15 +1,14 @@
 # crypto lcg
 
-_2023-10-24_
+_2023-11-09_
 
 ## setup
+- responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- ask IT about legacy OU cleanup
+- try esc4 template misconfig
