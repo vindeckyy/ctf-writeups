@@ -1,10 +1,11 @@
 # crypto elgamal
 
-_2023-07-01_
+_2023-11-17_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -14,3 +15,4 @@ _2023-07-01_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
