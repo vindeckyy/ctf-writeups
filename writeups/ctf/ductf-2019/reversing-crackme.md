@@ -1,6 +1,6 @@
 # reversing crackme
 
-_2023-08-15_
+_2023-11-28_
 
 ## setup
 - proxychains + burp chained
