@@ -1,14 +1,15 @@
 # misc jail
 
-_2023-08-18_
+_2023-12-02_
 
 ## setup
-- kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- follow up on relay chain
+- check for unconstrained delegation hosts
