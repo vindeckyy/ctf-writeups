@@ -1,6 +1,6 @@
 # web graphql
 
-_2022-11-27_
+_2023-12-04_
 
 ## setup
 - fresh windows server 2019 box in the lab
