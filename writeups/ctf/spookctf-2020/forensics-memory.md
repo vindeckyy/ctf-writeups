@@ -1,11 +1,10 @@
 # forensics memory
 
-_2023-10-12_
+_2023-12-06_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
-- nmap scripts updated from master
 
 ## findings
 - nfs export no_root_squash
@@ -14,4 +13,3 @@ _2023-10-12_
 
 ## next
 - map remaining acls in bloodhound
-- sweep ipv6 for live hosts
