@@ -1,17 +1,16 @@
 # reversing crackme
 
-_2023-10-13_
+_2023-12-12_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- gpp leftovers on legacy OU
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- ask IT about legacy OU cleanup
+- write detection rule for the fp case
