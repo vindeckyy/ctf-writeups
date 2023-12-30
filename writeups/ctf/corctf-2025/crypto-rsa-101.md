@@ -1,11 +1,10 @@
 # crypto rsa 101
 
-_2023-10-28_
+_2023-12-30_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -13,4 +12,3 @@ _2023-10-28_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
