@@ -1,6 +1,6 @@
 # stego lsb
 
-_2023-04-25_
+_2023-12-31_
 
 ## setup
 - target: internal lab 10.0.20.0/24
