@@ -1,11 +1,10 @@
 # web crlf
 
-_2023-12-15_
+_2024-01-01_
 
 ## setup
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
 
 ## findings
 - smb signing disabled on 3 hosts
@@ -13,4 +12,3 @@ _2023-12-15_
 
 ## next
 - follow up on relay chain
-- ask IT about legacy OU cleanup
