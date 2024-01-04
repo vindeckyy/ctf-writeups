@@ -1,11 +1,10 @@
 # osint photo
 
-_2023-09-14_
+_2024-01-04_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -15,4 +14,3 @@ _2023-09-14_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
