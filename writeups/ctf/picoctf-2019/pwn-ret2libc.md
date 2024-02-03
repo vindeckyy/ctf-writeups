@@ -1,6 +1,6 @@
 # pwn ret2libc
 
-_2023-04-08_
+_2024-02-03_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,8 +8,6 @@ _2023-04-08_
 - responder listening on the test vlan
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
