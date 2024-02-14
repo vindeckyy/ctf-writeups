@@ -1,6 +1,6 @@
 # pwn warmup
 
-_2023-08-09_
+_2024-02-14_
 
 ## setup
 - mitm6 paired with ntlmrelayx
@@ -8,6 +8,8 @@ _2023-08-09_
 - target: internal lab 10.0.20.0/24
 
 ## findings
+- ldap anon bind still works
+- gpp leftovers on legacy OU
 - host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
