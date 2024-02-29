@@ -1,10 +1,11 @@
 # re go
 
-_2023-11-14_
+_2024-02-28_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
 - cert template allows enrollment for DA group
@@ -13,3 +14,4 @@ _2023-11-14_
 
 ## next
 - ask IT about legacy OU cleanup
+- try esc4 template misconfig
