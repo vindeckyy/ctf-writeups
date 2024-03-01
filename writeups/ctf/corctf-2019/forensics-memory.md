@@ -1,17 +1,14 @@
 # forensics memory
 
-_2023-11-28_
+_2024-03-01_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- as-rep roastable: 2 accounts
-- jwt accepts none alg
-- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
 ## next
-- map remaining acls in bloodhound
+- follow up on relay chain
