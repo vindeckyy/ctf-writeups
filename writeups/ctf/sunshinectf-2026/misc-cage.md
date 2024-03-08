@@ -1,18 +1,17 @@
 # misc cage
 
-_2023-06-13_
+_2024-03-08_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- as-rep roastable: 2 accounts
+- jwt accepts none alg
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- map remaining acls in bloodhound
