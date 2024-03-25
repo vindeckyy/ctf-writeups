@@ -1,16 +1,16 @@
 # stego lsb
 
-_2024-01-22_
+_2024-03-25_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- jwt accepts none alg
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- follow up on relay chain
