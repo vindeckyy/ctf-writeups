@@ -1,6 +1,6 @@
 # recon
 
-_2023-12-17_
+_2024-04-02_
 
 ## setup
 - wsl network tweaks applied
@@ -9,6 +9,8 @@ _2023-12-17_
 - responder listening on the test vlan
 
 ## findings
+- as-rep roastable: 2 accounts
+- jwt accepts none alg
 - nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
