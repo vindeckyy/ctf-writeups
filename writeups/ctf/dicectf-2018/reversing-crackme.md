@@ -1,6 +1,6 @@
 # reversing crackme
 
-_2024-03-11_
+_2024-04-06_
 
 ## setup
 - mitm6 paired with ntlmrelayx
@@ -8,8 +8,6 @@ _2024-03-11_
 - target: internal lab 10.0.20.0/24
 
 ## findings
-- ldap anon bind still works
-- gpp leftovers on legacy OU
 - host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
