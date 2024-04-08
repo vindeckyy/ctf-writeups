@@ -1,14 +1,17 @@
 # pwn warmup
 
-_2024-02-12_
+_2024-04-08_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- snmp community 'public' read-all
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- write detection rule for the fp case
+- test coercion from workstation context
