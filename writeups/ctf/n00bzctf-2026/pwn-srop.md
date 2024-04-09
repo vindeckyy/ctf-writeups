@@ -1,6 +1,6 @@
 # pwn srop
 
-_2024-03-26_
+_2024-04-09_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,6 +8,8 @@ _2024-03-26_
 - responder listening on the test vlan
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
