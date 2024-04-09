@@ -1,18 +1,15 @@
 # pwn warmup
 
-_2024-03-21_
+_2024-04-09_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
 ## next
-- follow up on relay chain
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
+- map remaining acls in bloodhound
