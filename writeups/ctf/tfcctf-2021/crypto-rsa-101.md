@@ -1,14 +1,14 @@
 # crypto rsa 101
 
-_2024-02-01_
+_2024-04-19_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- follow up on relay chain
+- try esc4 template misconfig
