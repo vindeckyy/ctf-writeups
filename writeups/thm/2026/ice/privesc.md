@@ -1,12 +1,11 @@
 # privesc
 
-_2024-04-12_
+_2024-04-26_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
-- responder listening on the test vlan
 
 ## findings
 - nfs export no_root_squash
@@ -16,4 +15,3 @@ _2024-04-12_
 ## next
 - map remaining acls in bloodhound
 - sweep ipv6 for live hosts
-- test coercion from workstation context
