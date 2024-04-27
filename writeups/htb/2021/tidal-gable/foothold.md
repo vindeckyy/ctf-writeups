@@ -1,6 +1,6 @@
 # foothold
 
-_2023-03-26_
+_2024-04-27_
 
 ## setup
 - kali vm snapshot rolled back
