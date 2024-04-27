@@ -1,16 +1,16 @@
 # web graphql
 
-_2024-03-07_
+_2024-04-27_
 
 ## setup
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- write detection rule for the fp case
+- map remaining acls in bloodhound
