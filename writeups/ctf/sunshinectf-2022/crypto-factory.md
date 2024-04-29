@@ -1,14 +1,12 @@
 # crypto factory
 
-_2024-03-29_
+_2024-04-29_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
 
 ## findings
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
 
