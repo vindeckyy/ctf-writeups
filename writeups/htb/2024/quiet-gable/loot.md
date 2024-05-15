@@ -1,10 +1,12 @@
 # loot
 
-_2024-03-11_
+_2024-05-15_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - winrm open on workstations
@@ -13,3 +15,5 @@ _2024-03-11_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
+- map remaining acls in bloodhound
