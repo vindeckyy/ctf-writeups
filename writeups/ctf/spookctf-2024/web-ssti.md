@@ -1,10 +1,11 @@
 # web ssti
 
-_2024-04-11_
+_2024-05-21_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -14,3 +15,4 @@ _2024-04-11_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
