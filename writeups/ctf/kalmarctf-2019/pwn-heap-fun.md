@@ -1,12 +1,14 @@
 # pwn heap fun
 
-_2024-05-12_
+_2024-06-02_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
