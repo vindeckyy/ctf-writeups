@@ -1,6 +1,6 @@
 # privesc
 
-_2024-02-07_
+_2024-06-05_
 
 ## setup
 - nmap scripts updated from master
