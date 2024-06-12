@@ -1,6 +1,6 @@
 # pwn ret2libc
 
-_2024-01-04_
+_2024-06-12_
 
 ## setup
 - mitm6 paired with ntlmrelayx
