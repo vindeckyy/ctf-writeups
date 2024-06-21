@@ -1,6 +1,6 @@
 # forensics pcap
 
-_2024-05-17_
+_2024-06-21_
 
 ## setup
 - mitm6 paired with ntlmrelayx
