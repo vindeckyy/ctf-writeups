@@ -1,6 +1,6 @@
 # osint photo
 
-_2024-02-02_
+_2024-06-26_
 
 ## setup
 - responder listening on the test vlan
@@ -8,6 +8,8 @@ _2024-02-02_
 - kali vm snapshot rolled back
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
