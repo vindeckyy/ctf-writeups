@@ -1,6 +1,6 @@
 # web ssti
 
-_2024-04-30_
+_2024-07-03_
 
 ## setup
 - responder listening on the test vlan
@@ -9,8 +9,6 @@ _2024-04-30_
 - mitm6 paired with ntlmrelayx
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
