@@ -1,6 +1,6 @@
 # re dotnet
 
-_2023-07-24_
+_2024-07-05_
 
 ## setup
 - proxychains + burp chained
