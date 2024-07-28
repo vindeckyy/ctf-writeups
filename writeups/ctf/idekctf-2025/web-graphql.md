@@ -1,6 +1,6 @@
 # web graphql
 
-_2024-06-13_
+_2024-07-28_
 
 ## setup
 - new vpnsplit setup for the lab
