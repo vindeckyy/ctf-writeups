@@ -1,6 +1,6 @@
 # web crlf
 
-_2024-07-25_
+_2024-07-29_
 
 ## setup
 - kali vm snapshot rolled back
