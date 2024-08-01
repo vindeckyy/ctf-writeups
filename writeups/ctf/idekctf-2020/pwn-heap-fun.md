@@ -1,12 +1,14 @@
 # pwn heap fun
 
-_2024-03-01_
+_2024-08-01_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
 
 ## findings
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
