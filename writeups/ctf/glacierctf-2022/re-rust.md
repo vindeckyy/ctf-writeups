@@ -1,6 +1,6 @@
 # re rust
 
-_2024-04-24_
+_2024-08-05_
 
 ## setup
 - proxychains + burp chained
