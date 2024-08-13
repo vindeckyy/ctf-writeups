@@ -1,6 +1,6 @@
 # osint geoint
 
-_2024-04-08_
+_2024-08-13_
 
 ## setup
 - new vpnsplit setup for the lab
