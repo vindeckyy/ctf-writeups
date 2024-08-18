@@ -1,6 +1,6 @@
 # pwn ret2libc
 
-_2024-08-11_
+_2024-08-18_
 
 ## setup
 - target: internal lab 10.0.20.0/24
@@ -9,6 +9,8 @@ _2024-08-11_
 - new vpnsplit setup for the lab
 
 ## findings
+- snmp community 'public' read-all
+- rdp nla disabled on legacy box
 - dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
