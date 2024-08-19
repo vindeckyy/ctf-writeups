@@ -1,6 +1,6 @@
 # crypto lcg
 
-_2023-07-24_
+_2024-08-19_
 
 ## setup
 - wsl network tweaks applied
