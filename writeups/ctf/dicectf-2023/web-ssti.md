@@ -1,6 +1,6 @@
 # web ssti
 
-_2024-02-01_
+_2024-08-23_
 
 ## setup
 - kali vm snapshot rolled back
