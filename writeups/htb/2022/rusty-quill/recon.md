@@ -1,14 +1,16 @@
 # recon
 
-_2024-08-18_
+_2024-08-28_
 
 ## setup
+- responder listening on the test vlan
+- proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- follow up on relay chain
+- try esc4 template misconfig
+- pull sccm http creds if time allows
