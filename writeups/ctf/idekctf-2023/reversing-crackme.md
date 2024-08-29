@@ -1,6 +1,6 @@
 # reversing crackme
 
-_2024-02-25_
+_2024-08-29_
 
 ## setup
 - proxychains + burp chained
@@ -9,8 +9,6 @@ _2024-02-25_
 - fresh windows server 2019 box in the lab
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
