@@ -1,17 +1,14 @@
 # crypto rsa 101
 
-_2024-07-11_
+_2024-09-03_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
+- try esc4 template misconfig
