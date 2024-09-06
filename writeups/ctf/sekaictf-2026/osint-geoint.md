@@ -1,10 +1,12 @@
 # osint geoint
 
-_2024-08-18_
+_2024-09-06_
 
 ## setup
 - target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
 - snmp community 'public' read-all
@@ -15,3 +17,5 @@ _2024-08-18_
 
 ## next
 - test coercion from workstation context
+- retest after patch window
+- check for unconstrained delegation hosts
