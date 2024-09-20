@@ -1,6 +1,6 @@
 # web baby
 
-_2024-09-08_
+_2024-09-20_
 
 ## setup
 - new vpnsplit setup for the lab
