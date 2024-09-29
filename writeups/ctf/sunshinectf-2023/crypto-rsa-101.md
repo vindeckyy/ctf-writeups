@@ -1,11 +1,10 @@
 # crypto rsa 101
 
-_2024-04-10_
+_2024-09-28_
 
 ## setup
 - mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
 
 ## findings
 - ldap anon bind still works
@@ -16,4 +15,3 @@ _2024-04-10_
 
 ## next
 - check for unconstrained delegation hosts
-- follow up on relay chain
