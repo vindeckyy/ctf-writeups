@@ -1,6 +1,6 @@
 # pwn warmup
 
-_2024-05-18_
+_2024-09-30_
 
 ## setup
 - nmap scripts updated from master
