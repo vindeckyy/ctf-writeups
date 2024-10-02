@@ -1,6 +1,6 @@
 # reversing crackme
 
-_2024-08-24_
+_2024-10-02_
 
 ## setup
 - fresh windows server 2019 box in the lab
@@ -9,8 +9,6 @@ _2024-08-24_
 - wsl network tweaks applied
 
 ## findings
-- printers reachable from guest vlan
-- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
