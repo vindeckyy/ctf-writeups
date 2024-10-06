@@ -1,11 +1,12 @@
 # osint photo
 
-_2024-08-16_
+_2024-10-06_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
 - kerberoastable: svc_backup, svc_sql
@@ -14,3 +15,4 @@ _2024-08-16_
 ## next
 - sweep ipv6 for live hosts
 - test coercion from workstation context
+- retest after patch window
