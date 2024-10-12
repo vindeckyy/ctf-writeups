@@ -1,14 +1,15 @@
 # reversing crackme
 
-_2024-08-08_
+_2024-10-11_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- retest after patch window
+- ask IT about legacy OU cleanup
