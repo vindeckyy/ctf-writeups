@@ -1,6 +1,6 @@
 # crypto elgamal
 
-_2024-08-21_
+_2024-10-13_
 
 ## setup
 - new vpnsplit setup for the lab
