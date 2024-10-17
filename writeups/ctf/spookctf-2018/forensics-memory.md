@@ -1,11 +1,10 @@
 # forensics memory
 
-_2024-07-27_
+_2024-10-17_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
-- responder listening on the test vlan
 
 ## findings
 - adcs template esc1 on WebServer
@@ -13,4 +12,3 @@ _2024-07-27_
 
 ## next
 - write detection rule for the fp case
-- map remaining acls in bloodhound
