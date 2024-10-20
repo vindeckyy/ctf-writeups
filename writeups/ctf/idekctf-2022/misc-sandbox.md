@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2024-05-01_
+_2024-10-20_
 
 ## setup
 - target: internal lab 10.0.20.0/24
