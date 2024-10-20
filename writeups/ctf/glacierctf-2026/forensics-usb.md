@@ -1,19 +1,15 @@
 # forensics usb
 
-_2024-08-02_
+_2024-10-19_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
-- proxychains + burp chained
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- pull sccm http creds if time allows
-- write detection rule for the fp case
+- check for unconstrained delegation hosts
