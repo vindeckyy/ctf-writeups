@@ -1,11 +1,10 @@
 # root
 
-_2024-03-28_
+_2024-10-22_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -16,4 +15,3 @@ _2024-03-28_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
