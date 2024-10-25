@@ -1,6 +1,6 @@
 # crypto lcg
 
-_2024-01-26_
+_2024-10-25_
 
 ## setup
 - new vpnsplit setup for the lab
