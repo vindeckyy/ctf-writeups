@@ -1,6 +1,6 @@
 # misc jail
 
-_2024-10-03_
+_2024-10-28_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2024-10-03_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
