@@ -1,6 +1,6 @@
 # root
 
-_2024-10-22_
+_2024-10-29_
 
 ## setup
 - kali vm snapshot rolled back
