@@ -1,6 +1,6 @@
 # osint photo
 
-_2024-01-02_
+_2024-10-30_
 
 ## setup
 - fresh windows server 2019 box in the lab
