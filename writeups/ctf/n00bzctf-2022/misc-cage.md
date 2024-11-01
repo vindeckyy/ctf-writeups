@@ -1,11 +1,10 @@
 # misc cage
 
-_2024-09-24_
+_2024-10-31_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -15,4 +14,3 @@ _2024-09-24_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
