@@ -1,14 +1,18 @@
 # reversing crackme
 
-_2024-05-03_
+_2024-11-06_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- jwt accepts none alg
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- try esc4 template misconfig
+- follow up on relay chain
+- ask IT about legacy OU cleanup
