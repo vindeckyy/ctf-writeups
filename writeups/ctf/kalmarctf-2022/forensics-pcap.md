@@ -9,8 +9,6 @@ _2024-11-10_
 - kali vm snapshot rolled back
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
