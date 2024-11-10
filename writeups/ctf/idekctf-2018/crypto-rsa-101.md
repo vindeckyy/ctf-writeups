@@ -1,17 +1,14 @@
 # crypto rsa 101
 
-_2024-10-18_
+_2024-11-10_
 
 ## setup
-- proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- ask IT about legacy OU cleanup
+- follow up on relay chain
