@@ -1,17 +1,15 @@
 # pwn srop
 
-_2024-10-05_
+_2024-11-10_
 
 ## setup
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- ldap anon bind still works
-- gpp leftovers on legacy OU
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- check for unconstrained delegation hosts
+- pull sccm http creds if time allows
