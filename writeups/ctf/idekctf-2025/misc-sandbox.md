@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2024-08-12_
+_2024-11-11_
 
 ## setup
 - new vpnsplit setup for the lab
