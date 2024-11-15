@@ -1,15 +1,14 @@
 # loot
 
-_2024-09-23_
+_2024-11-15_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- ask IT about legacy OU cleanup
+- retest after patch window
