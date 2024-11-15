@@ -1,6 +1,6 @@
 # reversing crackme
 
-_2024-07-30_
+_2024-11-15_
 
 ## setup
 - wsl network tweaks applied
