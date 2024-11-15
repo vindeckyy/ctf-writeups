@@ -1,6 +1,6 @@
 # crypto elgamal
 
-_2024-10-15_
+_2024-11-15_
 
 ## setup
 - wsl network tweaks applied
