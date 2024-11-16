@@ -1,15 +1,14 @@
 # re rust
 
-_2024-10-23_
+_2024-11-16_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- pull sccm http creds if time allows
+- follow up on relay chain
