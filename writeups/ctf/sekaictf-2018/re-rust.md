@@ -1,6 +1,6 @@
 # re rust
 
-_2024-06-04_
+_2024-12-08_
 
 ## setup
 - responder listening on the test vlan
@@ -8,8 +8,6 @@ _2024-06-04_
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
