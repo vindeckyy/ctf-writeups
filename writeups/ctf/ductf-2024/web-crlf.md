@@ -1,14 +1,12 @@
 # web crlf
 
-_2024-12-01_
+_2024-12-08_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
