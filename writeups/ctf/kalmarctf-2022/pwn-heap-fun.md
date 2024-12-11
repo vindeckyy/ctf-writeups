@@ -1,6 +1,6 @@
 # pwn heap fun
 
-_2024-04-29_
+_2024-12-11_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2024-04-29_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
