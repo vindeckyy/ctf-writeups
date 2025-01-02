@@ -1,6 +1,6 @@
 # crypto factory
 
-_2024-11-07_
+_2025-01-02_
 
 ## setup
 - nmap scripts updated from master
