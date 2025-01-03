@@ -1,16 +1,17 @@
 # misc cage
 
-_2024-11-29_
+_2025-01-03_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
+- wsus unsigned allowed
 - printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
 ## next
-- retest after patch window
+- pull sccm http creds if time allows
