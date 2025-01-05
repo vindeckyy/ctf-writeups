@@ -1,10 +1,11 @@
 # web ssti
 
-_2024-11-08_
+_2025-01-05_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - winrm open on workstations
@@ -13,3 +14,4 @@ _2024-11-08_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
