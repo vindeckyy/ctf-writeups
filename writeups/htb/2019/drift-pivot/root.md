@@ -1,6 +1,6 @@
 # root
 
-_2024-12-16_
+_2025-01-15_
 
 ## setup
 - wsl network tweaks applied
@@ -8,8 +8,6 @@ _2024-12-16_
 - nmap scripts updated from master
 
 ## findings
-- as-rep roastable: 2 accounts
-- jwt accepts none alg
 - nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
