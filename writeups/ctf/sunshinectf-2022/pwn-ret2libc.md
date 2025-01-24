@@ -1,16 +1,17 @@
 # pwn ret2libc
 
-_2025-01-16_
+_2025-01-24_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- write detection rule for the fp case
+- test coercion from workstation context
+- retest after patch window
