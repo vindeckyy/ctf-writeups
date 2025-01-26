@@ -1,10 +1,11 @@
 # web crlf
 
-_2024-06-06_
+_2025-01-26_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -12,3 +13,4 @@ _2024-06-06_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
