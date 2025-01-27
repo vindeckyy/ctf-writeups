@@ -1,14 +1,17 @@
 # re go
 
-_2024-05-27_
+_2025-01-26_
 
 ## setup
-- new vpnsplit setup for the lab
 - nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- wsus unsigned allowed
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- write detection rule for the fp case
+- pull sccm http creds if time allows
