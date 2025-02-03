@@ -1,12 +1,11 @@
 # foothold
 
-_2025-01-25_
+_2025-02-03_
 
 ## setup
 - mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
 - target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
 
 ## findings
 - host header injection poisons cache
@@ -16,4 +15,3 @@ _2025-01-25_
 ## next
 - check for unconstrained delegation hosts
 - follow up on relay chain
-- ask IT about legacy OU cleanup
