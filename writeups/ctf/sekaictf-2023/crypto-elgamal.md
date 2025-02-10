@@ -1,17 +1,14 @@
 # crypto elgamal
 
-_2024-11-16_
+_2025-02-10_
 
 ## setup
-- nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- pull sccm http creds if time allows
+- try esc4 template misconfig
