@@ -1,6 +1,6 @@
 # crypto lcg
 
-_2025-01-15_
+_2025-02-12_
 
 ## setup
 - proxychains + burp chained
