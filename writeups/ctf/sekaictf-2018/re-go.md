@@ -1,11 +1,12 @@
 # re go
 
-_2024-12-01_
+_2025-02-14_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
 - web01 leaks .env via backup dir
@@ -17,3 +18,4 @@ _2024-12-01_
 ## next
 - ask IT about legacy OU cleanup
 - try esc4 template misconfig
+- pull sccm http creds if time allows
