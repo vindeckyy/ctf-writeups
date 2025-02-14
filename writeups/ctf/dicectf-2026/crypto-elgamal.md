@@ -1,11 +1,10 @@
 # crypto elgamal
 
-_2024-12-01_
+_2025-02-14_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
-- new vpnsplit setup for the lab
 
 ## findings
 - docker socket mounted in ci runner
@@ -15,4 +14,3 @@ _2024-12-01_
 
 ## next
 - sweep ipv6 for live hosts
-- test coercion from workstation context
