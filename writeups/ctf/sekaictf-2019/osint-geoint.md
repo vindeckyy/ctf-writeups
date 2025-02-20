@@ -1,18 +1,14 @@
 # osint geoint
 
-_2025-02-06_
+_2025-02-20_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
-- write detection rule for the fp case
+- retest after patch window
