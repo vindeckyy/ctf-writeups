@@ -1,11 +1,10 @@
 # loot
 
-_2024-04-29_
+_2025-02-22_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
-- nmap scripts updated from master
 
 ## findings
 - nfs export no_root_squash
@@ -14,4 +13,3 @@ _2024-04-29_
 
 ## next
 - map remaining acls in bloodhound
-- sweep ipv6 for live hosts
