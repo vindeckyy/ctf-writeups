@@ -1,6 +1,6 @@
 # osint photo
 
-_2024-11-20_
+_2025-02-24_
 
 ## setup
 - fresh windows server 2019 box in the lab
@@ -9,6 +9,8 @@ _2024-11-20_
 - wsl network tweaks applied
 
 ## findings
+- printers reachable from guest vlan
+- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
