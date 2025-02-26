@@ -1,6 +1,6 @@
 # web graphql
 
-_2025-02-16_
+_2025-02-26_
 
 ## setup
 - target: internal lab 10.0.20.0/24
