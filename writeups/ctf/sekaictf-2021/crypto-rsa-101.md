@@ -1,16 +1,14 @@
 # crypto rsa 101
 
-_2025-01-28_
+_2025-03-01_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- retest after patch window
-- check for unconstrained delegation hosts
+- follow up on relay chain
