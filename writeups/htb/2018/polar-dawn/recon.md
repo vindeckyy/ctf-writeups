@@ -1,6 +1,6 @@
 # recon
 
-_2024-12-05_
+_2025-03-09_
 
 ## setup
 - fresh windows server 2019 box in the lab
@@ -9,6 +9,8 @@ _2024-12-05_
 - wsl network tweaks applied
 
 ## findings
+- printers reachable from guest vlan
+- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
