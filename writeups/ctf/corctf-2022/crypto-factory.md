@@ -1,6 +1,6 @@
 # crypto factory
 
-_2024-10-05_
+_2025-03-08_
 
 ## setup
 - kali vm snapshot rolled back
@@ -9,6 +9,8 @@ _2024-10-05_
 - target: internal lab 10.0.20.0/24
 
 ## findings
+- jwt accepts none alg
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
