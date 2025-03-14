@@ -1,6 +1,6 @@
 # re rust
 
-_2024-06-25_
+_2025-03-14_
 
 ## setup
 - mitm6 paired with ntlmrelayx
