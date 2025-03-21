@@ -1,12 +1,14 @@
 # crypto factory
 
-_2025-02-25_
+_2025-03-21_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
