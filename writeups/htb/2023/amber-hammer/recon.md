@@ -1,10 +1,11 @@
 # recon
 
-_2025-01-31_
+_2025-03-23_
 
 ## setup
 - fresh windows server 2019 box in the lab
 - target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
 - printers reachable from guest vlan
@@ -14,3 +15,4 @@ _2025-01-31_
 
 ## next
 - retest after patch window
+- check for unconstrained delegation hosts
