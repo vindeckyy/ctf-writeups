@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2025-01-23_
+_2025-04-20_
 
 ## setup
 - wsl network tweaks applied
@@ -9,8 +9,6 @@ _2025-01-23_
 - responder listening on the test vlan
 
 ## findings
-- as-rep roastable: 2 accounts
-- jwt accepts none alg
 - nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
