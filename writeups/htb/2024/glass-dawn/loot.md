@@ -1,19 +1,16 @@
 # loot
 
-_2024-07-27_
+_2025-04-30_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
-- proxychains + burp chained
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- wsus unsigned allowed
 - printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
 ## next
-- pull sccm http creds if time allows
-- write detection rule for the fp case
+- retest after patch window
