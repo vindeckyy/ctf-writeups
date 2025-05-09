@@ -1,10 +1,11 @@
 # pwn heap fun
 
-_2024-12-21_
+_2025-05-08_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
 - cert template allows enrollment for DA group
@@ -13,3 +14,4 @@ _2024-12-21_
 
 ## next
 - ask IT about legacy OU cleanup
+- try esc4 template misconfig
