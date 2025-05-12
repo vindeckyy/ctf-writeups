@@ -1,6 +1,6 @@
 # osint geoint
 
-_2025-03-10_
+_2025-05-12_
 
 ## setup
 - proxychains + burp chained
