@@ -1,10 +1,11 @@
 # foothold
 
-_2025-04-17_
+_2025-05-20_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -14,3 +15,4 @@ _2025-04-17_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
