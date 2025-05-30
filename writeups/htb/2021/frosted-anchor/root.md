@@ -1,6 +1,6 @@
 # root
 
-_2025-01-20_
+_2025-05-30_
 
 ## setup
 - nmap scripts updated from master
@@ -9,6 +9,8 @@ _2025-01-20_
 - kali vm snapshot rolled back
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
