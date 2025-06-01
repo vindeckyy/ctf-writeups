@@ -1,6 +1,6 @@
 # loot
 
-_2025-01-09_
+_2025-06-01_
 
 ## setup
 - wsl network tweaks applied
