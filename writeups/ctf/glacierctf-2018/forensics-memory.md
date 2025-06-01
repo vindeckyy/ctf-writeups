@@ -1,6 +1,6 @@
 # forensics memory
 
-_2025-02-14_
+_2025-06-01_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,6 +8,8 @@ _2025-02-14_
 - responder listening on the test vlan
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
