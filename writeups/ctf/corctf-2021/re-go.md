@@ -1,6 +1,6 @@
 # re go
 
-_2025-02-11_
+_2025-06-03_
 
 ## setup
 - new vpnsplit setup for the lab
