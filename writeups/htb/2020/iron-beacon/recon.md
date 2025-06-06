@@ -1,15 +1,14 @@
 # recon
 
-_2025-05-23_
+_2025-06-06_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- ask IT about legacy OU cleanup
+- write detection rule for the fp case
