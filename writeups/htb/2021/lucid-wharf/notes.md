@@ -1,6 +1,6 @@
 # notes
 
-_2023-12-08_
+_2025-06-28_
 
 ## setup
 - mitm6 paired with ntlmrelayx
