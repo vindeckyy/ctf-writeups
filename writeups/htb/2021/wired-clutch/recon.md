@@ -1,11 +1,10 @@
 # recon
 
-_2025-05-31_
+_2025-07-01_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -13,4 +12,3 @@ _2025-05-31_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
