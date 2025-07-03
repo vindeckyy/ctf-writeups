@@ -1,6 +1,6 @@
 # pwn warmup
 
-_2024-10-14_
+_2025-07-03_
 
 ## setup
 - target: internal lab 10.0.20.0/24
