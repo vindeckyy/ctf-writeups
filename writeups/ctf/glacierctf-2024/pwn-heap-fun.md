@@ -1,6 +1,6 @@
 # pwn heap fun
 
-_2025-05-11_
+_2025-07-07_
 
 ## setup
 - fresh windows server 2019 box in the lab
@@ -9,6 +9,8 @@ _2025-05-11_
 - wsl network tweaks applied
 
 ## findings
+- printers reachable from guest vlan
+- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
