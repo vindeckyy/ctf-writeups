@@ -1,11 +1,10 @@
 # misc cage
 
-_2025-07-06_
+_2025-07-27_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -16,4 +15,3 @@ _2025-07-06_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
