@@ -1,6 +1,6 @@
 # loot
 
-_2025-04-11_
+_2025-07-30_
 
 ## setup
 - mitm6 paired with ntlmrelayx
