@@ -1,12 +1,14 @@
 # privesc
 
-_2025-07-08_
+_2025-08-17_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
