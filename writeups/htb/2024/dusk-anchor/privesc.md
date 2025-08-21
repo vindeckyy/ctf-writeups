@@ -1,6 +1,6 @@
 # privesc
 
-_2024-12-14_
+_2025-08-21_
 
 ## setup
 - responder listening on the test vlan
@@ -9,6 +9,8 @@ _2024-12-14_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
