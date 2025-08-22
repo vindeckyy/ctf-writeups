@@ -1,6 +1,6 @@
 # recon
 
-_2025-06-10_
+_2025-08-22_
 
 ## setup
 - fresh windows server 2019 box in the lab
