@@ -1,14 +1,14 @@
 # re rust
 
-_2024-12-05_
+_2025-08-23_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- write detection rule for the fp case
+- try esc4 template misconfig
