@@ -1,6 +1,6 @@
 # foothold
 
-_2025-03-12_
+_2025-08-24_
 
 ## setup
 - nmap scripts updated from master
