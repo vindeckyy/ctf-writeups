@@ -1,6 +1,6 @@
 # re rust
 
-_2025-08-14_
+_2025-08-27_
 
 ## setup
 - new vpnsplit setup for the lab
