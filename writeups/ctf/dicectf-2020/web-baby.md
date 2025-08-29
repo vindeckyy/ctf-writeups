@@ -1,6 +1,6 @@
 # web baby
 
-_2025-04-23_
+_2025-08-29_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
