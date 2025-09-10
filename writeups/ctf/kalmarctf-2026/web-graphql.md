@@ -1,6 +1,6 @@
 # web graphql
 
-_2025-07-04_
+_2025-09-10_
 
 ## setup
 - nmap scripts updated from master
