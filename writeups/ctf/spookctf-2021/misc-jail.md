@@ -1,10 +1,11 @@
 # misc jail
 
-_2025-01-21_
+_2025-09-19_
 
 ## setup
 - target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
 - dns rebinding blocked at resolver
@@ -13,3 +14,4 @@ _2025-01-21_
 
 ## next
 - test coercion from workstation context
+- retest after patch window
