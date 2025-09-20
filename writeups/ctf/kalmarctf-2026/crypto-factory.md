@@ -1,6 +1,6 @@
 # crypto factory
 
-_2025-07-12_
+_2025-09-20_
 
 ## setup
 - wsl network tweaks applied
