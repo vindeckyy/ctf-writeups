@@ -1,16 +1,15 @@
 # recon
 
-_2025-07-10_
+_2025-09-24_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- try esc4 template misconfig
+- map remaining acls in bloodhound
