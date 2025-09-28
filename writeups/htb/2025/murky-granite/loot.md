@@ -1,6 +1,6 @@
 # loot
 
-_2025-08-02_
+_2025-09-27_
 
 ## setup
 - proxychains + burp chained
