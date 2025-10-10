@@ -1,11 +1,12 @@
 # crypto rsa 101
 
-_2024-07-27_
+_2025-10-09_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
 - nfs export no_root_squash
@@ -15,3 +16,4 @@ _2024-07-27_
 ## next
 - map remaining acls in bloodhound
 - sweep ipv6 for live hosts
+- test coercion from workstation context
