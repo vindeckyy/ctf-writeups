@@ -1,6 +1,6 @@
 # privesc
 
-_2025-08-04_
+_2025-10-12_
 
 ## setup
 - kali vm snapshot rolled back
