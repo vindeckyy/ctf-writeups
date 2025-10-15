@@ -1,16 +1,14 @@
 # pwn ret2libc
 
-_2025-07-11_
+_2025-10-15_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- write detection rule for the fp case
+- try esc4 template misconfig
