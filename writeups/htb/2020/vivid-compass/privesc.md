@@ -1,6 +1,6 @@
 # privesc
 
-_2024-10-07_
+_2025-10-20_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -9,8 +9,6 @@ _2024-10-07_
 - proxychains + burp chained
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
