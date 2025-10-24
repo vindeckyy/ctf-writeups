@@ -1,6 +1,6 @@
 # web ssti
 
-_2025-07-20_
+_2025-10-24_
 
 ## setup
 - new vpnsplit setup for the lab
