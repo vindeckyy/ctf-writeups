@@ -1,6 +1,6 @@
 # notes
 
-_2025-09-08_
+_2025-10-27_
 
 ## setup
 - target: internal lab 10.0.20.0/24
