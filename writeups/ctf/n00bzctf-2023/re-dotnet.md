@@ -1,6 +1,6 @@
 # re dotnet
 
-_2025-08-24_
+_2025-10-31_
 
 ## setup
 - responder listening on the test vlan
@@ -9,8 +9,6 @@ _2025-08-24_
 - mitm6 paired with ntlmrelayx
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
