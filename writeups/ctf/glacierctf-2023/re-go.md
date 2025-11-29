@@ -1,6 +1,6 @@
 # re go
 
-_2025-10-29_
+_2025-11-28_
 
 ## setup
 - mitm6 paired with ntlmrelayx
