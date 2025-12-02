@@ -1,6 +1,6 @@
 # crypto rsa 101
 
-_2025-11-21_
+_2025-12-02_
 
 ## setup
 - proxychains + burp chained
