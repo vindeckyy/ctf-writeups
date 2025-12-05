@@ -1,6 +1,6 @@
 # osint geoint
 
-_2025-02-27_
+_2025-12-04_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,6 +8,8 @@ _2025-02-27_
 - responder listening on the test vlan
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
