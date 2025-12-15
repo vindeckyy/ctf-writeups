@@ -1,10 +1,11 @@
 # web ssti
 
-_2025-08-12_
+_2025-12-15_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -12,3 +13,4 @@ _2025-08-12_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
