@@ -1,11 +1,10 @@
 # reversing crackme
 
-_2025-08-06_
+_2025-12-17_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -15,4 +14,3 @@ _2025-08-06_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
