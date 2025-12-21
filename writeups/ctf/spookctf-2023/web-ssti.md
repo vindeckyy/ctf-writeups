@@ -1,6 +1,6 @@
 # web ssti
 
-_2025-06-28_
+_2025-12-21_
 
 ## setup
 - nmap scripts updated from master
