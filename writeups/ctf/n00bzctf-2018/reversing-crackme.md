@@ -1,6 +1,6 @@
 # reversing crackme
 
-_2025-08-07_
+_2025-12-24_
 
 ## setup
 - kali vm snapshot rolled back
