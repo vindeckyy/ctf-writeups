@@ -1,12 +1,14 @@
 # misc sandbox
 
-_2025-11-25_
+_2025-12-25_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
