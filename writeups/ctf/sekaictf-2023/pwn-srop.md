@@ -1,6 +1,6 @@
 # pwn srop
 
-_2025-10-19_
+_2026-01-05_
 
 ## setup
 - new vpnsplit setup for the lab
