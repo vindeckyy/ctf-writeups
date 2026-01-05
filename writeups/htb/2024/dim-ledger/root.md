@@ -1,12 +1,14 @@
 # root
 
-_2025-11-11_
+_2026-01-04_
 
 ## setup
 - mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
 
 ## findings
+- ldap anon bind still works
+- gpp leftovers on legacy OU
 - host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
