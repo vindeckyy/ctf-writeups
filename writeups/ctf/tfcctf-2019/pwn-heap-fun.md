@@ -1,14 +1,14 @@
 # pwn heap fun
 
-_2025-12-26_
+_2026-01-07_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- try esc4 template misconfig
+- retest after patch window
