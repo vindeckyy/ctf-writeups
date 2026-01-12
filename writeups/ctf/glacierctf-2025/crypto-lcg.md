@@ -1,11 +1,12 @@
 # crypto lcg
 
-_2025-09-28_
+_2026-01-12_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - winrm open on workstations
@@ -15,3 +16,4 @@ _2025-09-28_
 ## next
 - pull sccm http creds if time allows
 - write detection rule for the fp case
+- map remaining acls in bloodhound
