@@ -1,11 +1,10 @@
 # pwn ret2libc
 
-_2025-11-07_
+_2026-01-16_
 
 ## setup
 - fresh windows server 2019 box in the lab
 - target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
 
 ## findings
 - printers reachable from guest vlan
@@ -15,4 +14,3 @@ _2025-11-07_
 
 ## next
 - retest after patch window
-- check for unconstrained delegation hosts
