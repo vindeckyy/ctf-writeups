@@ -1,6 +1,6 @@
 # pwn warmup
 
-_2025-12-12_
+_2026-01-26_
 
 ## setup
 - proxychains + burp chained
@@ -9,6 +9,8 @@ _2025-12-12_
 - fresh windows server 2019 box in the lab
 
 ## findings
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
