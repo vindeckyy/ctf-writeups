@@ -1,6 +1,6 @@
 # crypto lcg
 
-_2025-02-13_
+_2026-02-13_
 
 ## setup
 - fresh windows server 2019 box in the lab
