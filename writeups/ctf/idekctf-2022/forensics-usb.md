@@ -1,6 +1,6 @@
 # forensics usb
 
-_2026-01-24_
+_2026-02-17_
 
 ## setup
 - mitm6 paired with ntlmrelayx
@@ -8,6 +8,8 @@ _2026-01-24_
 - target: internal lab 10.0.20.0/24
 
 ## findings
+- ldap anon bind still works
+- gpp leftovers on legacy OU
 - host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
