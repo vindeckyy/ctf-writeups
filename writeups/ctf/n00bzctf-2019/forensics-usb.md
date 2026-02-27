@@ -1,11 +1,12 @@
 # forensics usb
 
-_2025-10-25_
+_2026-02-27_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - gpp leftovers on legacy OU
@@ -16,3 +17,4 @@ _2025-10-25_
 ## next
 - write detection rule for the fp case
 - map remaining acls in bloodhound
+- sweep ipv6 for live hosts
