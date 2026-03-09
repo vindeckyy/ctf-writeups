@@ -1,6 +1,6 @@
 # crypto factory
 
-_2026-01-02_
+_2026-03-09_
 
 ## setup
 - mitm6 paired with ntlmrelayx
