@@ -1,6 +1,6 @@
 # web crlf
 
-_2025-07-29_
+_2026-03-13_
 
 ## setup
 - nmap scripts updated from master
@@ -8,8 +8,6 @@ _2025-07-29_
 - proxychains + burp chained
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
