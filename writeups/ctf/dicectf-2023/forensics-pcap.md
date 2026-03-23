@@ -1,17 +1,14 @@
 # forensics pcap
 
-_2025-11-17_
+_2026-03-23_
 
 ## setup
-- target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
-- snmp community 'public' read-all
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- test coercion from workstation context
+- sweep ipv6 for live hosts
