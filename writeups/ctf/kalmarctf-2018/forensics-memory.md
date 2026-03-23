@@ -1,17 +1,16 @@
 # forensics memory
 
-_2025-11-26_
+_2026-03-23_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- wsus unsigned allowed
 - printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
 ## next
-- pull sccm http creds if time allows
+- retest after patch window
