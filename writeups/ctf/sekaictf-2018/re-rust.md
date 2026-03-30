@@ -1,18 +1,19 @@
 # re rust
 
-_2025-12-18_
+_2026-03-29_
 
 ## setup
-- new vpnsplit setup for the lab
 - nmap scripts updated from master
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
+- pull sccm http creds if time allows
 - write detection rule for the fp case
 - map remaining acls in bloodhound
-- sweep ipv6 for live hosts
