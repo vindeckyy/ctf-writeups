@@ -1,6 +1,6 @@
 # foothold
 
-_2026-04-02_
+_2026-04-06_
 
 ## setup
 - target: internal lab 10.0.20.0/24
