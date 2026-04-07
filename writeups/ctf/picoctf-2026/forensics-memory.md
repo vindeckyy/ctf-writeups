@@ -1,6 +1,6 @@
 # forensics memory
 
-_2025-10-08_
+_2026-04-07_
 
 ## setup
 - proxychains + burp chained
