@@ -1,15 +1,16 @@
 # root
 
-_2025-07-29_
+_2026-04-15_
 
 ## setup
-- proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
+- follow up on relay chain
 - ask IT about legacy OU cleanup
