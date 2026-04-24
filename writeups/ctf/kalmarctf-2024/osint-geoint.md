@@ -1,6 +1,6 @@
 # osint geoint
 
-_2025-01-30_
+_2026-04-24_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -9,8 +9,6 @@ _2025-01-30_
 - proxychains + burp chained
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
