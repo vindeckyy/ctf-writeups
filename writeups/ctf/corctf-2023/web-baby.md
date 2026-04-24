@@ -1,11 +1,10 @@
 # web baby
 
-_2026-03-29_
+_2026-04-24_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
 - cert template allows enrollment for DA group
@@ -14,4 +13,3 @@ _2026-03-29_
 
 ## next
 - ask IT about legacy OU cleanup
-- try esc4 template misconfig
