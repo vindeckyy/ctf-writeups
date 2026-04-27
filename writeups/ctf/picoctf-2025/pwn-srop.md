@@ -1,6 +1,6 @@
 # pwn srop
 
-_2026-03-25_
+_2026-04-27_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -9,6 +9,8 @@ _2026-03-25_
 - proxychains + burp chained
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
