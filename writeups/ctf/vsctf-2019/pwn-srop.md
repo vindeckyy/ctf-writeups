@@ -1,11 +1,10 @@
 # pwn srop
 
-_2026-02-12_
+_2026-04-29_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -15,4 +14,3 @@ _2026-02-12_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
