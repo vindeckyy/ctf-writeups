@@ -1,14 +1,16 @@
 # crypto lcg
 
-_2026-03-12_
+_2026-04-30_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- jwt accepts none alg
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- retest after patch window
+- follow up on relay chain
