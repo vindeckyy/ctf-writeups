@@ -1,6 +1,6 @@
 # stego lsb
 
-_2026-04-15_
+_2026-04-30_
 
 ## setup
 - kali vm snapshot rolled back
@@ -9,8 +9,6 @@ _2026-04-15_
 - target: internal lab 10.0.20.0/24
 
 ## findings
-- jwt accepts none alg
-- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
