@@ -1,6 +1,6 @@
 # web baby
 
-_2026-04-17_
+_2026-05-01_
 
 ## setup
 - mitm6 paired with ntlmrelayx
