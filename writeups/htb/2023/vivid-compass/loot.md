@@ -1,11 +1,10 @@
 # loot
 
-_2025-12-19_
+_2026-05-10_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
 - web01 leaks .env via backup dir
@@ -16,4 +15,3 @@ _2025-12-19_
 
 ## next
 - ask IT about legacy OU cleanup
-- try esc4 template misconfig
