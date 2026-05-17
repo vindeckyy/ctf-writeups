@@ -1,12 +1,14 @@
 # notes
 
-_2026-04-03_
+_2026-05-17_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
