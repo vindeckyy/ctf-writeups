@@ -1,10 +1,12 @@
 # foothold
 
-_2026-02-09_
+_2026-05-25_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - wsus unsigned allowed
@@ -15,3 +17,5 @@ _2026-02-09_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
+- map remaining acls in bloodhound
