@@ -1,6 +1,6 @@
 # notes
 
-_2026-01-28_
+_2026-05-29_
 
 ## setup
 - responder listening on the test vlan
