@@ -1,6 +1,6 @@
 # misc cage
 
-_2026-03-03_
+_2026-06-01_
 
 ## setup
 - responder listening on the test vlan
@@ -9,6 +9,8 @@ _2026-03-03_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
