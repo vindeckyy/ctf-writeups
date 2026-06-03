@@ -1,10 +1,11 @@
 # re dotnet
 
-_2026-02-20_
+_2026-06-03_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -15,3 +16,4 @@ _2026-02-20_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
