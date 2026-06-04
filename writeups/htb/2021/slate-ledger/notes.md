@@ -1,6 +1,6 @@
 # notes
 
-_2026-01-20_
+_2026-06-03_
 
 ## setup
 - nmap scripts updated from master
