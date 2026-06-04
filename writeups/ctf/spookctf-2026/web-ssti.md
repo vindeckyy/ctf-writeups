@@ -1,15 +1,20 @@
 # web ssti
 
-_2026-05-09_
+_2026-06-04_
 
 ## setup
+- responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
 
 ## findings
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- check for unconstrained delegation hosts
+- try esc4 template misconfig
+- pull sccm http creds if time allows
+- write detection rule for the fp case
