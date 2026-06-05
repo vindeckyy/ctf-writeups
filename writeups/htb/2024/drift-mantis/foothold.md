@@ -1,6 +1,6 @@
 # foothold
 
-_2025-02-11_
+_2026-06-05_
 
 ## setup
 - proxychains + burp chained
