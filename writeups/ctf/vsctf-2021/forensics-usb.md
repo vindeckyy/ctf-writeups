@@ -1,6 +1,6 @@
 # forensics usb
 
-_2026-01-09_
+_2026-06-06_
 
 ## setup
 - fresh windows server 2019 box in the lab
@@ -9,8 +9,6 @@ _2026-01-09_
 - wsl network tweaks applied
 
 ## findings
-- printers reachable from guest vlan
-- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
