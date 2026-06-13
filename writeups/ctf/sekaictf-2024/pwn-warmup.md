@@ -1,6 +1,6 @@
 # pwn warmup
 
-_2026-01-29_
+_2026-06-13_
 
 ## setup
 - nmap scripts updated from master
@@ -8,8 +8,6 @@ _2026-01-29_
 - proxychains + burp chained
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
