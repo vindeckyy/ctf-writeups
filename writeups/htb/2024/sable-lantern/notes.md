@@ -1,6 +1,6 @@
 # notes
 
-_2026-01-04_
+_2026-06-25_
 
 ## setup
 - new vpnsplit setup for the lab
