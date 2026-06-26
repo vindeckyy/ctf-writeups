@@ -1,6 +1,6 @@
 # web ssti
 
-_2026-03-06_
+_2026-06-26_
 
 ## setup
 - proxychains + burp chained
@@ -8,6 +8,8 @@ _2026-03-06_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
