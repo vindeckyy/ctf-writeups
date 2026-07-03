@@ -1,16 +1,17 @@
 # notes
 
-_2026-04-01_
+_2026-07-03_
 
 ## setup
+- nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- wsus unsigned allowed
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- try esc4 template misconfig
+- pull sccm http creds if time allows
