@@ -1,15 +1,15 @@
 # web baby
 
-_2025-07-18_
+_2026-07-04_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- pull sccm http creds if time allows
+- check for unconstrained delegation hosts
