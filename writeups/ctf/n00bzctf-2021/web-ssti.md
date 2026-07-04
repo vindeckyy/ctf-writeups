@@ -1,6 +1,6 @@
 # web ssti
 
-_2026-06-26_
+_2026-07-04_
 
 ## setup
 - proxychains + burp chained
