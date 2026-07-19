@@ -1,11 +1,10 @@
 # web crlf
 
-_2026-04-08_
+_2026-07-19_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
-- responder listening on the test vlan
 
 ## findings
 - gpp leftovers on legacy OU
@@ -15,4 +14,3 @@ _2026-04-08_
 
 ## next
 - write detection rule for the fp case
-- map remaining acls in bloodhound
