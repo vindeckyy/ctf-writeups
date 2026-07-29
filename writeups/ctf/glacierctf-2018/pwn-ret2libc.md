@@ -1,10 +1,11 @@
 # pwn ret2libc
 
-_2026-04-29_
+_2026-07-29_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
 - as-rep roastable: 2 accounts
@@ -15,3 +16,4 @@ _2026-04-29_
 
 ## next
 - map remaining acls in bloodhound
+- sweep ipv6 for live hosts
