@@ -1,6 +1,6 @@
 # re rust
 
-_2026-07-06_
+_2026-07-30_
 
 ## setup
 - kali vm snapshot rolled back
