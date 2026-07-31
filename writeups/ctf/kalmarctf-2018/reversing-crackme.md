@@ -1,6 +1,6 @@
 # reversing crackme
 
-_2026-03-15_
+_2026-07-31_
 
 ## setup
 - mitm6 paired with ntlmrelayx
