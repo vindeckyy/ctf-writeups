@@ -1,6 +1,6 @@
 # web baby
 
-_2026-02-03_
+_2026-08-06_
 
 ## setup
 - proxychains + burp chained
