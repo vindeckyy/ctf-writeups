@@ -1,6 +1,6 @@
 # forensics memory
 
-_2026-03-28_
+_2026-08-08_
 
 ## setup
 - nmap scripts updated from master
