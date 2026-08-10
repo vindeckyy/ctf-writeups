@@ -1,19 +1,15 @@
 # re rust
 
-_2026-01-09_
+_2026-08-10_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
 
 ## next
 - ask IT about legacy OU cleanup
-- try esc4 template misconfig
