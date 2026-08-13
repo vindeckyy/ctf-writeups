@@ -1,11 +1,10 @@
 # web graphql
 
-_2026-06-09_
+_2026-08-13_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
 - web01 leaks .env via backup dir
@@ -16,4 +15,3 @@ _2026-06-09_
 
 ## next
 - ask IT about legacy OU cleanup
-- try esc4 template misconfig
