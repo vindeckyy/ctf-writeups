@@ -1,10 +1,11 @@
 # pwn srop
 
-_2026-07-22_
+_2026-08-26_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
 - cert template allows enrollment for DA group
@@ -13,3 +14,4 @@ _2026-07-22_
 
 ## next
 - ask IT about legacy OU cleanup
+- try esc4 template misconfig
