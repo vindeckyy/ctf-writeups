@@ -1,6 +1,6 @@
 # pwn heap fun
 
-_2026-08-06_
+_2026-09-03_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -9,8 +9,6 @@ _2026-08-06_
 - proxychains + burp chained
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
