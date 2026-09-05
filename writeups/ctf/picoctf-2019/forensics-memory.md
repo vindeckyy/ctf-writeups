@@ -1,6 +1,6 @@
 # forensics memory
 
-_2025-11-12_
+_2026-09-05_
 
 ## setup
 - nmap scripts updated from master
@@ -9,6 +9,8 @@ _2025-11-12_
 - kali vm snapshot rolled back
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
