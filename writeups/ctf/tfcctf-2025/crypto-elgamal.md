@@ -1,6 +1,6 @@
 # crypto elgamal
 
-_2026-08-09_
+_2026-09-05_
 
 ## setup
 - nmap scripts updated from master
@@ -8,8 +8,6 @@ _2026-08-09_
 - proxychains + burp chained
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
