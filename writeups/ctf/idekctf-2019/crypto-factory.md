@@ -1,6 +1,6 @@
 # crypto factory
 
-_2026-07-22_
+_2026-09-20_
 
 ## setup
 - proxychains + burp chained
