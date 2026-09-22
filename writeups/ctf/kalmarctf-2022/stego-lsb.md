@@ -1,14 +1,12 @@
 # stego lsb
 
-_2026-09-14_
+_2026-09-22_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
