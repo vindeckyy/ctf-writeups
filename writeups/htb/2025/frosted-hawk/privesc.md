@@ -1,6 +1,6 @@
 # privesc
 
-_2026-06-07_
+_2026-09-23_
 
 ## setup
 - proxychains + burp chained
