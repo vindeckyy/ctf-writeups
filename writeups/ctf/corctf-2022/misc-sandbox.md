@@ -1,6 +1,6 @@
 # misc sandbox
 
-_2026-09-22_
+_2026-09-24_
 
 ## setup
 - fresh windows server 2019 box in the lab
