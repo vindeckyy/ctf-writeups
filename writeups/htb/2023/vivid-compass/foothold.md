@@ -1,10 +1,11 @@
 # foothold
 
-_2026-04-13_
+_2026-09-25_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - winrm open on workstations
@@ -13,3 +14,4 @@ _2026-04-13_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
