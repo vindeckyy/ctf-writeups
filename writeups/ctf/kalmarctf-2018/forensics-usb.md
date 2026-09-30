@@ -1,6 +1,6 @@
 # forensics usb
 
-_2026-06-15_
+_2026-09-30_
 
 ## setup
 - responder listening on the test vlan
@@ -8,8 +8,6 @@ _2026-06-15_
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
