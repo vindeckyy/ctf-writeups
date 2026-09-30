@@ -1,6 +1,6 @@
 # osint geoint
 
-_2026-09-23_
+_2026-09-30_
 
 ## setup
 - fresh windows server 2019 box in the lab
