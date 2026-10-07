@@ -1,6 +1,6 @@
 # web ssti
 
-_2026-08-13_
+_2026-10-07_
 
 ## setup
 - responder listening on the test vlan
