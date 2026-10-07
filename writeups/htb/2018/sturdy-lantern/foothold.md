@@ -1,17 +1,14 @@
 # foothold
 
-_2026-08-06_
+_2026-10-07_
 
 ## setup
-- proxychains + burp chained
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
+- follow up on relay chain
