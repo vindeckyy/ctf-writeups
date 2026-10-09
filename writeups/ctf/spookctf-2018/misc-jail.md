@@ -1,6 +1,6 @@
 # misc jail
 
-_2026-09-21_
+_2026-10-09_
 
 ## setup
 - proxychains + burp chained
