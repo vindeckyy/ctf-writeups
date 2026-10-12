@@ -1,6 +1,6 @@
 # root
 
-_2026-06-10_
+_2026-10-12_
 
 ## setup
 - new vpnsplit setup for the lab
