@@ -1,6 +1,6 @@
 # crypto factory
 
-_2026-08-08_
+_2026-10-14_
 
 ## setup
 - new vpnsplit setup for the lab
