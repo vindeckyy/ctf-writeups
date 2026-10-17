@@ -1,6 +1,6 @@
 # loot
 
-_2026-08-25_
+_2026-10-17_
 
 ## setup
 - nmap scripts updated from master
@@ -9,8 +9,6 @@ _2026-08-25_
 - kali vm snapshot rolled back
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
