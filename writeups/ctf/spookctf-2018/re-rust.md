@@ -1,6 +1,6 @@
 # re rust
 
-_2026-03-13_
+_2026-10-20_
 
 ## setup
 - nmap scripts updated from master
@@ -8,8 +8,6 @@ _2026-03-13_
 - proxychains + burp chained
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
