@@ -1,6 +1,6 @@
 # crypto factory
 
-_2026-05-17_
+_2026-10-21_
 
 ## setup
 - fresh windows server 2019 box in the lab
