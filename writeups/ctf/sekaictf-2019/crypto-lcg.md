@@ -1,6 +1,6 @@
 # crypto lcg
 
-_2026-09-08_
+_2026-10-27_
 
 ## setup
 - nmap scripts updated from master
